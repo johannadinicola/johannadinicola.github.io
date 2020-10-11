@@ -8,6 +8,4 @@ author: Mike
 ---
 Johanna was born at 11:14 PM on Oct 1, weighing 7 lb, 15.3 oz. She was 46 minutes early for her due date at Boston Medical Center. She has lots of dark hair and blue eyes.
 
-![welcome-home-johanna1](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna1.jpg)
-![welcome-home-johanna1](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna1.jpg)
-![welcome-home-johanna1](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna1.jpg)
+![welcome-home-johanna-0001](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0001.jpg)
