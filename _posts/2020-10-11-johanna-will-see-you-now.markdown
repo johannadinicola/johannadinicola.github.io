@@ -6,4 +6,6 @@ categories: posts
 tags: office_hours
 author: Mike
 ---
-Johanna will be hosting office hours for anybody who would like to say hello! Hope to see you tonight!
+Johanna will be hosting office hours for anybody who would like to say hello!
+
+Hope to see you tonight!
