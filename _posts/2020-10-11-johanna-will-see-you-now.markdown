@@ -8,4 +8,10 @@ author: Mike
 ---
 Johanna will be hosting office hours for anybody who would like to say hello!
 
+	Johanna Office Hours
+	Sun Oct 11, 2020
+	6pm – 8pm Eastern Time
+	
+**[meet.google.com/dzd-uqif-bwf](https://meet.google.com/dzd-uqif-bwf)**
+
 Hope to see you tonight!
