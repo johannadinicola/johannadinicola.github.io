@@ -1,0 +1,62 @@
+body {
+  background-color: #C1BFC8;
+  color:#7E7881;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color:#222;
+}
+
+h2 {
+  color:#393939;
+}
+
+h3, h4, h5, h6 {
+  color:#494949;
+}
+
+a {
+  color:#F5F4F4;
+}
+
+a:hover, a:focus {
+  color:#EBE7E7;
+}
+
+code, pre {
+  color:#333;
+}
+
+dt {
+  color:#444;
+}
+
+th {
+  color:#444;
+}
+
+.downloads a {
+  color:#676767;
+}
+
+.downloads a:hover, .downloads a:focus {
+  color:#675C5C;
+}
+
+.downloads ul a:active {
+  background-color:#f0f0f0;
+}
+
+strong {
+  color:#222;
+}
+
+.downloads a strong {
+  color:#222;
+}
+
+@media print {
+  body {
+    color:#444;
+  }
+}
