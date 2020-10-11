@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Johanna Will See You Now!"
+title:  "Johanna Will See You Now"
 date:   2020-10-11 12:00:00 -0400
 categories: posts
 tags: office_hours

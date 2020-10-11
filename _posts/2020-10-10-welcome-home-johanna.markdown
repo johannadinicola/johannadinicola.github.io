@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome Home Johanna!"
+title:  "Welcome Home Johanna"
 date:   2020-10-10 12:00:00 -0400
 categories: posts
 tags: photos
