@@ -3,6 +3,6 @@
 set -e
 
 gem install bundler
-# bundle exec cp script/pre-push.sh .git/hooks/pre-push
-# bundle exec chmod +x .git/hooks/pre-push
+bundle exec cp script/pre-push.sh .git/hooks/pre-push
+bundle exec chmod +x .git/hooks/pre-push
 bundle install
