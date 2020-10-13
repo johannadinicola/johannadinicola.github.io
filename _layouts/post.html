@@ -9,6 +9,14 @@ layout: default
 
 {{content}}
 
+{% if page.images %}
+  <p>
+    {%- for image in page.images -%}
+      <img src="/assets/img{{ page.url | replace: ".html", "" }}/{{ image }}.jpg" alt="{{ image }}" />
+    {%- endfor -%}
+  </p>
+{% endif %}
+
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
