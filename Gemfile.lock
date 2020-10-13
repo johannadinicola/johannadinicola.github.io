@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-theme-minimal (0.1.1)
+    johannadinicola.github.io (0.0.1)
       jekyll (> 3.5, < 5.0)
 
 GEM
@@ -109,7 +109,7 @@ PLATFORMS
 
 DEPENDENCIES
   html-proofer (~> 3.0)
-  jekyll-theme-minimal!
+  johannadinicola.github.io!
   rubocop (~> 0.50)
   w3c_validators (~> 1.3)
 
