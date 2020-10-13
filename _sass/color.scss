@@ -55,6 +55,16 @@ strong {
   color:#222;
 }
 
+@media print, screen and (max-width: 960px) {
+
+  section {
+    border:1px solid #B8A19C;
+    border-width:1px 0;
+    padding:20px 0;
+    margin:0 0 20px;
+  }
+}
+
 @media print {
   body {
     color:#444;
