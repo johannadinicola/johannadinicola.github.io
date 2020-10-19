@@ -37,9 +37,9 @@ layout: default
           <a class="post-link" href="{{ post.url | relative_url }}">
             {%- for image in post.images -%}
               {% if image == post.images[0] %}
-                <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}.jpg" height="128" style="padding-right:8px" alt="{{ image }}" />
+                <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}-tn.jpg" height="128" style="padding-right:8px" alt="{{ image }}" />
               {% else %}
-                <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}.jpg" height="32" style="padding-right:8px" alt="{{ image }}" />
+                <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}-tn.jpg" height="32" style="padding-right:8px" alt="{{ image }}" />
               {% endif %}
             {%- endfor -%}
           </a>
