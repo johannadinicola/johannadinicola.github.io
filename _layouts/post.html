@@ -11,8 +11,12 @@ layout: default
 
 {% if page.images %}
   <p>
+  	{% assign url = page.url %}
+	{% assign size = url | size | minus: 5 %}
+	{% assign directory = url | slice: 0, size %}
     {%- for image in page.images -%}
-      <img src="/assets/img{{ page.url | replace: ".html", "" }}/{{ image }}.jpg" alt="{{ image }}" />
+	  {% assign path = "/assets/img" | append: directory | append: "/" | append: image | append: ".jpg" %}
+      <img src="{{ path | absolute_url }}" alt="{{ image }}" />
     {%- endfor -%}
   </p>
 {% endif %}
