@@ -55,19 +55,15 @@ layout: default
       {%- endfor -%}
     </ul>
 
-    {% if site.paginate %}
+    {% if site.paginate and paginator.total_pages > 1 %}
       <div class="pager">
         <ul class="pagination">
         {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
+          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page"><--</a></li>
         {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
+        <li><div class="current-page">Page {{ paginator.page }}</div></li>
         {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
+          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">--></a></li>
         {%- endif %}
         </ul>
       </div>

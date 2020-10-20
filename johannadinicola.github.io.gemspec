@@ -15,8 +15,18 @@ Gem::Specification.new do |s|
   end
 
   s.platform = Gem::Platform::RUBY
-  s.add_runtime_dependency 'jekyll', '> 3.5', '< 5.0'
-  # s.add_runtime_dependency 'jekyll-paginate', '~> 1.1'
+  s.add_runtime_dependency 'jekyll', '= 3.9.0'
+  s.add_runtime_dependency 'jekyll-coffeescript', '= 1.1.1'
+  s.add_runtime_dependency 'jekyll-commonmark-ghpages', '= 0.1.6'
+  s.add_runtime_dependency 'jekyll-gist', '= 1.5.0'
+  s.add_runtime_dependency 'jekyll-github-metadata', '= 2.13.0'
+  s.add_runtime_dependency 'jekyll-paginate', '= 1.1.0'
+  s.add_runtime_dependency 'jekyll-relative-links', '= 0.6.1'
+  s.add_runtime_dependency 'jekyll-optional-front-matter', '= 0.3.2'
+  s.add_runtime_dependency 'jekyll-readme-index', '= 0.3.0'
+  s.add_runtime_dependency 'jekyll-default-layout', '= 0.1.4'
+  s.add_runtime_dependency 'jekyll-titles-from-headings', '= 0.5.3'
+  s.add_runtime_dependency 'kramdown-parser-gfm', '= 1.1.0'
   s.add_development_dependency 'html-proofer', '~> 3.0'
   s.add_development_dependency 'rubocop', '~> 0.50'
   s.add_development_dependency 'w3c_validators', '~> 1.3'

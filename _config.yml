@@ -8,6 +8,15 @@ url: "https://johannadinicola.com" # the base hostname & protocol for your site,
 github: [metadata]
 show_excerpts: true
 future: false
-# paginate: true
-# plugins: 
-#   - jekyll-paginate
+paginate: 5
+plugins: 
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings

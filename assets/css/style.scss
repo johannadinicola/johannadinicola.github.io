@@ -3,8 +3,5 @@
 
 @import "jekyll-theme-minimal";
 @import "color";
-
-body {
-  padding-top: 0px;
-  margin-top: 0px
-}
+@import "navbar";
+@import "pager";
