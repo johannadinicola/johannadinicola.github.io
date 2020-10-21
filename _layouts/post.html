@@ -9,18 +9,6 @@ layout: default
 
 {{content}}
 
-{% if page.images %}
-  <p>
-  	{% assign url = page.url %}
-	{% assign size = url | size | minus: 5 %}
-	{% assign directory = url | slice: 0, size %}
-    {%- for image in page.images -%}
-	  {% assign path = "/assets/img" | append: directory | append: "/" | append: image | append: ".jpg" %}
-      <img src="{{ path | absolute_url }}" alt="{{ image }}" />
-    {%- endfor -%}
-  </p>
-{% endif %}
-
 {% if page.tags %}
   <small>tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></small>
 {% endif %}
