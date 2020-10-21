@@ -35,13 +35,20 @@ layout: default
           {{ post.excerpt }}
           {% if post.images %}
           <a class="post-link" href="{{ post.url | relative_url }}">
+
+            {% assign url = post.url %}
+            {% assign size = url | size | minus: 5 %}
+            {% assign directory = url | slice: 0, size %}
+
             {%- for image in post.images -%}
+              {% assign path = "/assets/img" | append: directory | append: "/" | append: image | append: "-tn.jpg" %}
               {% if image == post.images[0] %}
-                <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}-tn.jpg" height="128" style="padding-right:8px" alt="{{ image }}" />
+                <img src="{{ path | absolute_url }}" height=128 style="padding-right:8px" alt="{{ image }}" />
               {% else %}
-                <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}-tn.jpg" height="32" style="padding-right:8px" alt="{{ image }}" />
+                <img src="{{ path | absolute_url }}" height=32 style="padding-right:8px" alt="{{ image }}" />
               {% endif %}
             {%- endfor -%}
+
           </a>
           {% else %}
           <h5>
