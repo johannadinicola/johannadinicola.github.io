@@ -3,6 +3,7 @@ title: Johanna
 description: >- # this means to ignore newlines until "baseurl:"
   Johanna Maria DiNicola lives in Malden, MA with her mom and dad.
 logo: "/assets/img/logo.jpg"
+author: Mike
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://johannadinicola.com" # the base hostname & protocol for your site, e.g. http://example.com
 github: [metadata]
