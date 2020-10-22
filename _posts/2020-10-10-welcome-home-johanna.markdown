@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Welcome Home Johanna"
+description: "Johanna was born at 11:14 PM on Oct 1, weighing 7 lb, 15.3 oz."
+image: /assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-preview.jpg
 date:   2020-10-10 12:00:00 -0400
 categories: posts
 tags: photos
@@ -18,15 +20,15 @@ images: [
 author: Mike
 excerpt_separator: <!--more-->
 ---
-Johanna was born at 11:14 PM on Oct 1, weighing 7 lb, 15.3 oz. <!--more--> She was 46 minutes early for her due date at Boston Medical Center. She has lots of dark hair and blue eyes.
+{{ page.description }} <!--more--> She was 46 minutes early for her due date at Boston Medical Center. She has lots of dark hair and blue eyes.
 
-![](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0001.jpg)
-![](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0002.jpg)
-![](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0003.jpg)
-![](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0004.jpg)
-![](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0005.jpg)
-![](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0006.jpg)
-![](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0007.jpg)
-![](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0008.jpg)
-![](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0009.jpg)
-![](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0010.jpg)
+![.](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0001.jpg)
+![.](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0002.jpg)
+![.](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0003.jpg)
+![.](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0004.jpg)
+![.](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0005.jpg)
+![.](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0006.jpg)
+![.](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0007.jpg)
+![.](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0008.jpg)
+![.](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0009.jpg)
+![.](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0010.jpg)

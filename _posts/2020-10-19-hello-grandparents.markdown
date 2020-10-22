@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Hello Grandparents"
+description: "Johanna met her grandparents this weekend!"
+image: /assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-preview.jpg
 date:   2020-10-19 12:00:00 -0400
 categories: posts
 tags: photos
@@ -18,15 +20,15 @@ images: [
 author: Mike
 excerpt_separator: <!--more-->
 ---
-Johanna met her grandparents this weekend! <!--more--> Everyone had to quarantine and pass COVID-19 tests but it was worth it! She also met more of her extended pet family, had a trip to the doctor, and finally a bonus pic of post-shower hair.
+{{ page.description }} <!--more--> Everyone had to quarantine and pass COVID-19 tests but it was worth it! She also met more of her extended pet family, had a trip to the doctor, and finally a bonus pic of post-shower hair.
 
-![](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0001.jpg)
-![](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0002.jpg)
-![](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0003.jpg)
-![](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0004.jpg)
-![](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0005.jpg)
-![](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0006.jpg)
-![](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0007.jpg)
-![](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0008.jpg)
-![](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0009.jpg)
-![](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0010.jpg)
+![.](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0001.jpg)
+![.](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0002.jpg)
+![.](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0003.jpg)
+![.](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0004.jpg)
+![.](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0005.jpg)
+![.](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0006.jpg)
+![.](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0007.jpg)
+![.](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0008.jpg)
+![.](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0009.jpg)
+![.](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0010.jpg)

@@ -1,12 +1,13 @@
 ---
 layout: post
 title:  "Johanna Office Hours Saturday"
+description: "Johanna will be hosting office hours for anybody who would like to say hello!"
 date:   2020-10-22 17:00:00 -0400
 categories: posts
 tags: office_hours
 author: Mike
 ---
-Johanna will be hosting office hours for anybody who would like to say hello!
+{{ page.description }}
 
 	Johanna Office Hours
 	Sat Oct 24, 2020

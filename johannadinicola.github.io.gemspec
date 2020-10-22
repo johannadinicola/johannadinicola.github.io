@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'jekyll-paginate', '= 1.1.0'
   s.add_runtime_dependency 'jekyll-readme-index', '= 0.3.0'
   s.add_runtime_dependency 'jekyll-relative-links', '= 0.6.1'
+  s.add_runtime_dependency 'jekyll-seo-tag', '= 2.6.1'
   s.add_runtime_dependency 'jekyll-titles-from-headings', '= 0.5.3'
   s.add_runtime_dependency 'kramdown-parser-gfm', '= 1.1.0'
   s.add_development_dependency 'html-proofer', '~> 3.0'
