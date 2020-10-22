@@ -2,6 +2,7 @@
 layout: post
 title:  "Welcome Home Johanna"
 description: "Johanna was born at 11:14 PM on Oct 1, weighing 7 lb, 15.3 oz."
+image: /assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-preview.jpg
 date:   2020-10-10 12:00:00 -0400
 categories: posts
 tags: photos

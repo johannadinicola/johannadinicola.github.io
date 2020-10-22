@@ -2,6 +2,7 @@
 layout: post
 title:  "Hello Grandparents"
 description: "Johanna met her grandparents this weekend!"
+image: /assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-preview.jpg
 date:   2020-10-19 12:00:00 -0400
 categories: posts
 tags: photos
