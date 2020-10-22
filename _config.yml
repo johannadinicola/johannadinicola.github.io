@@ -22,3 +22,4 @@ plugins:
   - jekyll-default-layout
   - jekyll-titles-from-headings
   - jekyll-feed
+  - jekyll-seo-tag
