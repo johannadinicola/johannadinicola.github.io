@@ -14,8 +14,14 @@ jobs:
       - uses: actions/setup-ruby@v1
         with:
           ruby-version: "2.4"
+      - uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
+
       - name: Bootstrap
         run: sh script/bootstrap
-
       - name: Build
         run: bundle exec script/cibuild
