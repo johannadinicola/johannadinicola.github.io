@@ -23,8 +23,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-gems-
 
-      - name: Bootstrap
-        run: sh script/bootstrap
+      - name: Bundle install
+        run: |
+          gem install bundler
+          bundle config path vendor/bundle
+          bundle install --jobs 4 --retry 3
 
       - name: Build
         run: bundle exec script/cibuild
