@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Bootstrap
+        run: sh script/bootstrap
+
+      - name: Build
+        run: bundle exec script/cibuild
