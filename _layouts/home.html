@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
+  {% if page.title %}
     <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  {% endif %}
 
   {{ content }}
 
@@ -17,58 +17,64 @@ layout: default
   {% endif %}
 
 
-  {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
+  {% if posts.size > 0 %}
+    {% if page.list_title %}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
+    {% endif %}
     <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-          {% if post.images %}
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {%- for image in post.images -%}
-              {% if image == post.images[0] %}
-                <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}-tn.jpg" height="128" style="padding-right:8px" alt="{{ image }}" />
-              {% else %}
-                <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}-tn.jpg" height="32" style="padding-right:8px" alt="{{ image }}" />
-              {% endif %}
-            {%- endfor -%}
-          </a>
-          {% else %}
-          <h5>
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+      {% for post in posts %}
+        <li>
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+          <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">
-              MORE
+              {{ post.title | escape }}
             </a>
-          </h5>
-          {%- endif -%}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
+          </h3>
+          {% if site.show_excerpts %}
+            {{ post.excerpt }}
+            {% if post.images %}
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {% for image in post.images %}
+                  {% if image == post.images[0] %}
+                    <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}-tn.jpg" height="128"
+                      style="padding-right:8px" alt="{{ image }}" />
+                  {% else %}
+                    <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}-tn.jpg" height="32"
+                      style="padding-right:8px" alt="{{ image }}" />
+                  {% endif %}
+                {% endfor %}
+              </a>
+            {% else %}
+              <h5>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                  MORE
+                </a>
+              </h5>
+            {% endif %}
+          {% endif %}
+        </li>
+      {% endfor %}
     </ul>
 
     {% if site.paginate and paginator.total_pages > 1 %}
       <div class="pager">
         <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page"><--</a></li>
-        {%- endif %}
-        <li><div class="current-page">Page {{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">--></a></li>
-        {%- endif %}
+          {% if paginator.previous_page %}
+            <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">
+                <--< /a>
+            </li>
+          {% endif %}
+          <li>
+            <div class="current-page">Page {{ paginator.page }}</div>
+          </li>
+          {% if paginator.next_page %}
+            <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">--></a></li>
+          {% endif %}
         </ul>
       </div>
-    {%- endif %}
+    {% endif %}
 
-  {%- endif -%}
+  {% endif %}
 
 </div>
