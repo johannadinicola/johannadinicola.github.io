@@ -1,72 +1,82 @@
 body {
-  background-color: #C1BFC8;
-  color:#7E7881;
+  background-color: #c1bfc8;
+  color: #7e7881;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
 }
 
 h2 {
-  color:#393939;
+  color: #393939;
 }
 
-h3, h4, h5, h6 {
-  color:#494949;
+h3,
+h4,
+h5,
+h6 {
+  color: #494949;
 }
 
 a {
-  color:#F5F4F4;
+  color: #f5f4f4;
 }
 
-a:hover, a:focus {
-  color:#EBE7E7;
+a:hover,
+a:focus {
+  color: #ebe7e7;
 }
 
-code, pre {
-  color:#333;
+code,
+pre {
+  color: #333;
 }
 
 dt {
-  color:#444;
+  color: #444;
 }
 
 th {
-  color:#444;
+  color: #444;
 }
 
 .downloads a {
-  color:#676767;
+  color: #676767;
 }
 
-.downloads a:hover, .downloads a:focus {
-  color:#675C5C;
+.downloads a:hover,
+.downloads a:focus {
+  color: #675c5c;
 }
 
 .downloads ul a:active {
-  background-color:#f0f0f0;
+  background-color: #f0f0f0;
 }
 
 strong {
-  color:#222;
+  color: #222;
 }
 
 .downloads a strong {
-  color:#222;
+  color: #222;
 }
 
 @media print, screen and (max-width: 960px) {
-
   section {
-    border:1px solid #B8A19C;
-    border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
+    border: 1px solid #b8a19c;
+    border-width: 1px 0;
+    padding: 20px 0;
+    margin: 0 0 20px;
   }
 }
 
 @media print {
   body {
-    color:#444;
+    color: #444;
   }
 }

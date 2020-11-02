@@ -20,6 +20,7 @@ images: [
 author: Mike
 excerpt_separator: <!--more-->
 ---
+
 {{ page.description }} <!--more--> Everyone had to quarantine and pass COVID-19 tests but it was worth it! She also met more of her extended pet family, had a trip to the doctor, and finally a bonus pic of post-shower hair.
 
 ![.](/assets/img/posts/2020/10/19/hello-grandparents/hello-grandparents-0001.jpg)

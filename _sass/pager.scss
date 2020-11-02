@@ -1,5 +1,5 @@
 $spacing-unit: 30px;
-$brand-color: #B8A19C;
+$brand-color: #b8a19c;
 
 .contact-list,
 .social-media-list {
@@ -13,16 +13,19 @@ $brand-color: #B8A19C;
   li {
     float: left;
     margin: 5px 10px 5px 0;
-    &:last-of-type { margin-right: 0 }
+    &:last-of-type {
+      margin-right: 0;
+    }
     a {
       display: block;
       padding: $spacing-unit / 4;
       border: 1px solid $brand-color;
-      &:hover { border-color: $brand-color }
+      &:hover {
+        border-color: $brand-color;
+      }
     }
   }
 }
-
 
 /**
  * Pagination navbar
@@ -31,7 +34,8 @@ $brand-color: #B8A19C;
   margin-bottom: $spacing-unit;
   @extend .social-media-list;
   li {
-    a, div {
+    a,
+    div {
       min-width: 41px;
       text-align: center;
       box-sizing: border-box;

@@ -20,6 +20,7 @@ images: [
 author: Mike
 excerpt_separator: <!--more-->
 ---
+
 {{ page.description }} <!--more--> Johanna says thanks to the Taylor Family for her giant fox, and whoever sent this mystery Mario onesie please let us know (she has been helping me play Mario Galaxy so she's excited to wear it)!
 
 **Finally, you can now subscribe to updates straight to your email inbox or via RSS/Atom, just check near the top of this page (or to the left on Desktop).**

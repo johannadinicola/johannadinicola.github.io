@@ -20,6 +20,7 @@ images: [
 author: Mike
 excerpt_separator: <!--more-->
 ---
+
 {{ page.description }} <!--more--> She was 46 minutes early for her due date at Boston Medical Center. She has lots of dark hair and blue eyes.
 
 ![.](/assets/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0001.jpg)
