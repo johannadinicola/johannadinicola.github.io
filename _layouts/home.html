@@ -61,9 +61,7 @@ layout: default
       <div class="pager">
         <ul class="pagination">
           {% if paginator.previous_page %}
-            <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">
-                <--< /a>
-            </li>
+            <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page"><--</a></li>
           {% endif %}
           <li>
             <div class="current-page">Page {{ paginator.page }}</div>
