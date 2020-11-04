@@ -10,6 +10,8 @@ github: [metadata]
 show_excerpts: true
 future: false
 paginate: 5
+exclude:
+  - newsletter.html
 plugins:
   - jekyll-coffeescript
   - jekyll-commonmark-ghpages
