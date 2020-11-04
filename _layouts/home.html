@@ -25,12 +25,14 @@ layout: default
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       {% for post in posts %}
         <li>
-          <span class="post-meta">{{ post.date | date: date_format }}</span>
-          <h3>
+          <h3 style="margin-bottom: 0">
             <a class="post-link" href="{{ post.url | relative_url }}">
               {{ post.title | escape }}
             </a>
           </h3>
+          <div><span class="post-meta">{{ post.date | date: date_format }}</span>
+            <p>
+          </div>
           {% if site.show_excerpts %}
             {{ post.excerpt }}
             {% if post.images %}
@@ -53,6 +55,9 @@ layout: default
               </h5>
             {% endif %}
           {% endif %}
+          <div>
+            <p>
+          </div>
         </li>
       {% endfor %}
     </ul>
@@ -61,13 +66,13 @@ layout: default
       <div class="pager">
         <ul class="pagination">
           {% if paginator.previous_page %}
-            <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page"><--</a></li>
+            <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">&#x2190;</a></li>
           {% endif %}
           <li>
             <div class="current-page">Page {{ paginator.page }}</div>
           </li>
           {% if paginator.next_page %}
-            <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">--></a></li>
+            <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">&#x2192;</a></li>
           {% endif %}
         </ul>
       </div>
