@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Some Automnal Walks"
+title:  "Some Autumnal Walks"
 description: "Johanna got out of the house a few times for some walks."
 image: /assets/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-preview.jpg
 date:   2020-11-10 11:00:00 -0400
