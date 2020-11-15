@@ -14,10 +14,6 @@ author: Mike
     Sat Nov 14, 2020
     6pm – 8pm Eastern Time
 
-**[us02web.zoom.us/j/82849201171](https://us02web.zoom.us/j/82849201171?pwd=VGlqMWRRWFRRcHpZZTlVUkZTbDIyUT09)**
-
-**Passcode: 863286**
-
-[Add to calendar](/assets/ics{{ page.url | replace: ".html", "" }}/stay-in-with-johanna.ics)
-
 Hope to see you then!
+
+[**Update 11/15**] Thanks to everyone who joined! Johanna got to visit with her friends Beth & Rad, Liz, Allison & Dan, Joe, Meredith & Bobby, & Ari & Charlotte.
