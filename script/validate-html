@@ -4,10 +4,12 @@
 require 'w3c_validators'
 
 def validator(file)
-  extension = File.extname(file)
-  if extension == '.html'
+  case File.extname(file)
+  when '.html'
     W3CValidators::NuValidator.new
-  elsif extension == '.css'
+  when '.xml'
+    W3CValidators::FeedValidator.new
+  when '.css'
     W3CValidators::CSSValidator.new
   end
 end
@@ -25,4 +27,9 @@ def validate(file)
 end
 
 validate 'index.html'
+validate File.join 'page2', 'index.html'
+validate File.join 'posts', '2020', '10', '10', 'welcome-home-johanna.html'
+validate File.join 'posts', '2020', '10', '11', 'johanna-will-see-you-now.html'
+validate '404.html'
+validate 'feed.xml'
 validate File.join 'assets', 'css', 'style.css'

@@ -30,6 +30,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'jekyll-titles-from-headings', '= 0.5.3'
   s.add_runtime_dependency 'kramdown-parser-gfm', '= 1.1.0'
   s.add_development_dependency 'html-proofer', '~> 3.0'
-  s.add_development_dependency 'rubocop', '~> 0.50'
+  s.add_development_dependency 'rubocop', '~> 1.6.1'
   s.add_development_dependency 'w3c_validators', '~> 1.3'
 end
