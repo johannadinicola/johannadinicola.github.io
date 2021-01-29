@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Relaxing January"
-description: "Johanna was so excited to meet her Aunt Caroline"
+description: "Johanna took a trip and kept on growing this month!"
 image: /assets/img/posts/2021/01/29/relaxing-january/relaxing-january-preview.jpg
 date:   2021-01-29 12:00:00 -0400
 categories: posts
@@ -21,7 +21,7 @@ author: Mike
 excerpt_separator: <!--more-->
 ---
 
-{{ page.description }} <!--more--> and see her grandparents again for Xmas. She's gone through a growth spurt and is ready to face the new year- Happy 2021!
+{{ page.description }} <!--more--> She got to see snowy Vermont and spend time by the fire with mom, dad, Angus & Ruby.
 
 ![.](/assets/img/posts/2021/01/29/relaxing-january/relaxing-january-0001.jpg)
 ![.](/assets/img/posts/2021/01/29/relaxing-january/relaxing-january-0002.jpg)
