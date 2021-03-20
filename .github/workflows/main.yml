@@ -15,15 +15,6 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: "2.4"
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
 
-      - uses: actions/cache@v2
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-
-      - run: gem install bundler
-      - run: bundle config path vendor/bundle
-      - run: bundle install --jobs 4 --retry 3
       - run: bundle exec script/cibuild
