@@ -22,7 +22,7 @@ author: Mike
 excerpt_separator: <!--more-->
 ---
 
-{{ page.description }} <!--more--> - in April she has met her new friend Rory, had a picnic with Cat & Scot, and had lots of play time. She has an exciting update planned tomorrow!
+{{ page.description }} <!--more--> - in April she met her new friend Rory, had a picnic with Cat & Scot, and had lots of play time. She has an exciting update planned tomorrow!
 
 ![.](/assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0001.jpg)
 ![.](/assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0002.jpg)
