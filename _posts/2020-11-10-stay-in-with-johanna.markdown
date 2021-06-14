@@ -4,7 +4,7 @@ title: "Stay In With Johanna"
 description: "Johanna will be hosting office hours for anybody who would like to say hello!"
 date: 2020-11-10 12:00:00 -0400
 categories: posts
-tags: office_hours
+tags: office_hours events
 author: Mike
 ---
 
