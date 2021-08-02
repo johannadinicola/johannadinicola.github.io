@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "July, July"
+description: "July was a busy month with lots of friends!"
+image: /assets/img/posts/2021/08/02/july-july/july-july-preview.jpg
+date:   2021-08-02 12:00:00 -0400
+categories: posts
+tags: photos
+images: [
+	july-july-0001, 
+	july-july-0002,
+	july-july-0003, 
+	july-july-0004,
+	july-july-0005, 
+	july-july-0006,
+	july-july-0007, 
+	july-july-0008,
+	july-july-0009]
+author: Mike
+excerpt_separator: <!--more-->
+---
+
+{{ page.description }} <!--more--> Johanna went to her first drive-in movie, played a lot, inside and outside, and went on two exciting trips- stay tuned for trip pics!
+
+
+![.](/assets/img/posts/2021/08/02/july-july/july-july-0001.jpg)
+![.](/assets/img/posts/2021/08/02/july-july/july-july-0002.jpg)
+![.](/assets/img/posts/2021/08/02/july-july/july-july-0003.jpg)
+![.](/assets/img/posts/2021/08/02/july-july/july-july-0004.jpg)
+![.](/assets/img/posts/2021/08/02/july-july/july-july-0005.jpg)
+![.](/assets/img/posts/2021/08/02/july-july/july-july-0006.jpg)
+![.](/assets/img/posts/2021/08/02/july-july/july-july-0007.jpg)
+![.](/assets/img/posts/2021/08/02/july-july/july-july-0008.jpg)
+![.](/assets/img/posts/2021/08/02/july-july/july-july-0009.jpg)
