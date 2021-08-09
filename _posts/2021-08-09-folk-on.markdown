@@ -1,0 +1,42 @@
+---
+layout: post
+title:  "Folk On!"
+description: "Johanna's first trip to Fort Adams for Newport Folk 2021 was a success!"
+image: /assets/img/posts/2021/08/09/folk-on/folk-on-preview.jpg
+date:   2021-08-09 12:00:00 -0400
+categories: posts
+tags: photos
+images: [
+	folk-on-0001, 
+	folk-on-0002,
+	folk-on-0003, 
+	folk-on-0004,
+	folk-on-0005, 
+	folk-on-0006,
+	folk-on-0007, 
+	folk-on-0008,
+	folk-on-0009,
+	folk-on-0010,
+	folk-on-0011,
+	folk-on-0012,
+	folk-on-0013]
+author: Mike
+excerpt_separator: <!--more-->
+---
+
+{{ page.description }} <!--more--> She got to meet lots of folk friends and hear music all weekend. Grammy and Grandpa (and Manny) came for the trip, too.
+
+
+![.](/assets/img/posts/2021/08/09/folk-on/folk-on-0001.jpg)
+![.](/assets/img/posts/2021/08/09/folk-on/folk-on-0002.jpg)
+![.](/assets/img/posts/2021/08/09/folk-on/folk-on-0003.jpg)
+![.](/assets/img/posts/2021/08/09/folk-on/folk-on-0004.jpg)
+![.](/assets/img/posts/2021/08/09/folk-on/folk-on-0005.jpg)
+![.](/assets/img/posts/2021/08/09/folk-on/folk-on-0006.jpg)
+![.](/assets/img/posts/2021/08/09/folk-on/folk-on-0007.jpg)
+![.](/assets/img/posts/2021/08/09/folk-on/folk-on-0008.jpg)
+![.](/assets/img/posts/2021/08/09/folk-on/folk-on-0009.jpg)
+![.](/assets/img/posts/2021/08/09/folk-on/folk-on-0010.jpg)
+![.](/assets/img/posts/2021/08/09/folk-on/folk-on-0011.jpg)
+![.](/assets/img/posts/2021/08/09/folk-on/folk-on-0012.jpg)
+![.](/assets/img/posts/2021/08/09/folk-on/folk-on-0013.jpg)
