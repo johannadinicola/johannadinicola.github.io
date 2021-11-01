@@ -3,7 +3,7 @@ layout: post
 title:  "Standing All Over"
 description: "Johanna spent September doing her favorite things"
 image: /assets/img/posts/2021/11/01/standing-all-over/standing-all-over-preview.jpg
-date:   2021-11-01 12:00:00 -0400
+date:   2021-11-01 00:00:00 -0400
 categories: posts
 tags: photos
 images: [
