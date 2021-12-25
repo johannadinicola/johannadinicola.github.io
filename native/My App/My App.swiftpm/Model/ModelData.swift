@@ -1,5 +1,6 @@
 import Foundation
 import Combine
+import SwiftUI
 
 final class ModelData: ObservableObject {
     @Published var landmarks: [Landmark] = load("landmarkData.json")
@@ -18,19 +19,21 @@ final class ModelData: ObservableObject {
     }
 }
 
-func load<T: Decodable>(_ filename: String) -> T {
-    let data: Data
-    
+fileprivate func data(_ filename: String) -> Data {
     guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
     else {
         fatalError("Couldn't find \(filename) in main bundle.")
     }
     
     do {
-        data = try Data(contentsOf: file)
+        return try Data(contentsOf: file)
     } catch {
         fatalError("Couldn't load \(filename) from main bundle:\n\(error)")
     }
+}
+
+func load<T: Decodable>(_ filename: String) -> T {
+    let data = data(filename)
     
     do {
         let decoder = JSONDecoder()
@@ -40,3 +43,20 @@ func load<T: Decodable>(_ filename: String) -> T {
     }
 }
 
+func loadImage(_ filename: String) -> Image {
+    let data = data(filename)
+    
+    #if os(macOS)
+    guard let nsImage = NSImage(data: data) else {
+        fatalError("Image data for \(filename) is invalid")
+    }
+    
+    return Image(nsImage: nsImage)
+    #else
+    guard let uiImage = UIImage(data: data, scale: 3) else {
+        fatalError("Image data for \(filename) is invalid")
+    }
+
+    return Image(uiImage: uiImage)
+    #endif
+}
