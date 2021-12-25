@@ -20,10 +20,10 @@ struct Landmark: Hashable, Codable, Identifiable {
     
     private var imageName: String
     var image: Image {
-        Image(imageName + "@2x")
+        Image(imageName)
     }
     var featureImage: Image? {
-        isFeatured ? Image(imageName + "_feature@2x") : nil
+        isFeatured ? Image(imageName + "_feature") : nil
     }
     
     private var coordinates: Coordinates
