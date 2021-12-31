@@ -18,12 +18,13 @@ struct Landmark: Hashable, Codable, Identifiable {
         case mountains = "Mountains"
     }
     
+    private var imagePath: String
     private var imageName: String
     var image: Image {
-        loadImage("\(imageName)-0001.jpg")
+        loadImage("\(imageName)-0001.jpg", subdirectory: imagePath)
     }
     var featureImage: Image? {
-        isFeatured ? loadImage("\(imageName)-preview.jpg") : nil
+        isFeatured ? loadImage("\(imageName)-preview.jpg", subdirectory: imagePath) : nil
     }
     
     private var coordinates: Coordinates

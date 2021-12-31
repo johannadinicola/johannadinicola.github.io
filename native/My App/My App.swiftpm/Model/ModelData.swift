@@ -19,8 +19,8 @@ final class ModelData: ObservableObject {
     }
 }
 
-fileprivate func data(_ filename: String) -> Data {
-    guard let file = Bundle.main.url(forResource: filename, withExtension: nil)
+fileprivate func data(_ filename: String, subdirectory: String? = nil) -> Data {
+    guard let file = Bundle.main.url(forResource: filename, withExtension: nil, subdirectory: subdirectory)
     else {
         fatalError("Couldn't find \(filename) in main bundle.")
     }
@@ -43,8 +43,8 @@ func load<T: Decodable>(_ filename: String) -> T {
     }
 }
 
-func loadImage(_ filename: String) -> Image {
-    let data = data(filename)
+func loadImage(_ filename: String, subdirectory: String) -> Image {
+    let data = data(filename, subdirectory: subdirectory)
     
     #if os(macOS)
     guard let nsImage = NSImage(data: data) else {

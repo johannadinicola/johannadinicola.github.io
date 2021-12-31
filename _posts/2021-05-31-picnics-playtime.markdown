@@ -2,7 +2,7 @@
 layout: post
 title:  "Picnics & Playtime"
 description: "Johanna has been too busy to update her website"
-image: /assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-preview.jpg
+image: /native/My App/My App.swiftpm/Resources/img/posts/2021/05/31/picnics-playtime/picnics-playtime-preview.jpg
 date:   2021-05-31 12:00:00 -0400
 categories: posts
 tags: photos
@@ -24,14 +24,14 @@ excerpt_separator: <!--more-->
 
 {{ page.description }} <!--more--> - in April she met her new friend Rory, had a picnic with Cat & Scot, and had lots of play time. She has an exciting update planned tomorrow!
 
-![.](/assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0001.jpg)
-![.](/assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0002.jpg)
-![.](/assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0003.jpg)
-![.](/assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0004.jpg)
-![.](/assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0005.jpg)
-![.](/assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0006.jpg)
-![.](/assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0007.jpg)
-![.](/assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0008.jpg)
-![.](/assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0009.jpg)
-![.](/assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0010.jpg)
-![.](/assets/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0011.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0001.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0002.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0003.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0004.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0005.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0006.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0007.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0008.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0009.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0010.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/05/31/picnics-playtime/picnics-playtime-0011.jpg)

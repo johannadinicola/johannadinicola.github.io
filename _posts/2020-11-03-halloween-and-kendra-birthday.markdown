@@ -2,7 +2,7 @@
 layout: post
 title:  "Halloween & Kendra's Birthday"
 description: "Happy Halloween, Happy Birthday to Kendra, & Happy One Month to Johanna!"
-image: /assets/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-preview.jpg
+image: /native/My App/My App.swiftpm/Resources/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-preview.jpg
 date:   2020-11-03 12:00:00 -0400
 categories: posts
 tags: photos
@@ -25,13 +25,13 @@ excerpt_separator: <!--more-->
 
 **Reminder, you can now subscribe to updates straight to your email inbox or via RSS/Atom, just check near the top of this page (or to the left on Desktop).**
 
-![.](/assets/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0001.jpg)
-![.](/assets/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0002.jpg)
-![.](/assets/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0003.jpg)
-![.](/assets/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0004.jpg)
-![.](/assets/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0005.jpg)
-![.](/assets/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0006.jpg)
-![.](/assets/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0007.jpg)
-![.](/assets/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0008.jpg)
-![.](/assets/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0009.jpg)
-![.](/assets/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0010.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0001.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0002.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0003.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0004.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0005.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0006.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0007.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0008.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0009.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/03/halloween-and-kendra-birthday/halloween-and-kendra-birthday-0010.jpg)

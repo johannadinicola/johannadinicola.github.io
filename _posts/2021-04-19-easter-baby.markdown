@@ -2,7 +2,7 @@
 layout: post
 title:  "Easter, Baby"
 description: "Nonni got to meet her great-granddaughter!"
-image: /assets/img/posts/2021/04/19/easter-baby/easter-baby-preview.jpg
+image: /native/My App/My App.swiftpm/Resources/img/posts/2021/04/19/easter-baby/easter-baby-preview.jpg
 date:   2021-04-19 12:00:00 -0400
 categories: posts
 tags: photos
@@ -23,13 +23,13 @@ excerpt_separator: <!--more-->
 
 {{ page.description }} <!--more--> Johanna was so excited to meet her, her great-aunt Patty and great-uncle Tommy, and her cousins. She also got surprise visits from her aunt and uncle!
 
-![.](/assets/img/posts/2021/04/19/easter-baby/easter-baby-0001.jpg)
-![.](/assets/img/posts/2021/04/19/easter-baby/easter-baby-0002.jpg)
-![.](/assets/img/posts/2021/04/19/easter-baby/easter-baby-0003.jpg)
-![.](/assets/img/posts/2021/04/19/easter-baby/easter-baby-0004.jpg)
-![.](/assets/img/posts/2021/04/19/easter-baby/easter-baby-0005.jpg)
-![.](/assets/img/posts/2021/04/19/easter-baby/easter-baby-0006.jpg)
-![.](/assets/img/posts/2021/04/19/easter-baby/easter-baby-0007.jpg)
-![.](/assets/img/posts/2021/04/19/easter-baby/easter-baby-0008.jpg)
-![.](/assets/img/posts/2021/04/19/easter-baby/easter-baby-0009.jpg)
-![.](/assets/img/posts/2021/04/19/easter-baby/easter-baby-0010.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/04/19/easter-baby/easter-baby-0001.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/04/19/easter-baby/easter-baby-0002.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/04/19/easter-baby/easter-baby-0003.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/04/19/easter-baby/easter-baby-0004.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/04/19/easter-baby/easter-baby-0005.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/04/19/easter-baby/easter-baby-0006.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/04/19/easter-baby/easter-baby-0007.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/04/19/easter-baby/easter-baby-0008.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/04/19/easter-baby/easter-baby-0009.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/04/19/easter-baby/easter-baby-0010.jpg)

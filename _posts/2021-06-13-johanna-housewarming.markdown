@@ -29,11 +29,11 @@ Hope to see you then!
 
 [**Update 7/10**] Thanks to everyone who joined! A rainy weekend didn't stop us!
 
-![.](/assets/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0001.jpg)
-![.](/assets/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0002.jpg)
-![.](/assets/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0003.jpg)
-![.](/assets/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0004.jpg)
-![.](/assets/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0005.jpg)
-![.](/assets/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0006.jpg)
-![.](/assets/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0007.jpg)
-![.](/assets/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0008.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0001.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0002.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0003.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0004.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0005.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0006.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0007.jpg)
+![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0008.jpg)
