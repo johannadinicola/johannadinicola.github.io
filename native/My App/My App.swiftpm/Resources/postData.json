@@ -1,0 +1,47 @@
+[
+    {
+        "id":  9998,
+        "title":  "Halloween Time with Friends",
+        "description": "We saw lots of our favorite people in October and November!",
+        "body": "Johanna dressed up as a jaguar shark, started holding her own bottle, and played with her favorite toy, the tv remote.",
+        "imagePath": "img/posts/2021/11/28/halloween-time-with-friends",
+        "image": "halloween-time-with-friends-preview.jpg",
+        "date":   "2021-11-28",
+        "categories": "posts",
+        "isFavorite": false,
+        "isFeatured": true,
+        "images": [
+            "halloween-time-with-friends-0001.jpg",
+            "halloween-time-with-friends-0002.jpg",
+            "halloween-time-with-friends-0003.jpg",
+            "halloween-time-with-friends-0004.jpg",
+            "halloween-time-with-friends-0005.jpg",
+            "halloween-time-with-friends-0006.jpg",
+            "halloween-time-with-friends-0007.jpg",
+            "halloween-time-with-friends-0008.jpg",
+            "halloween-time-with-friends-0009.jpg",
+            "halloween-time-with-friends-0010.jpg"]
+    },
+    {
+        "id":  9999,
+        "title":  "Thanksgiving Visits",
+        "description": "Johanna had a great Thanksgiving week!",
+        "body": "She had dinner at Grammy's, saw her aunt and lots of friends, and had plenty of leftovers.",
+        "imagePath": "img/posts/2021/12/11/thanksgiving-visits",
+        "image": "thanksgiving-visits-preview.jpg",
+        "date":   "2021-12-11",
+        "categories": "posts",
+        "isFavorite": false,
+        "isFeatured": true,
+        "images": [
+            "thanksgiving-visits-0001.jpg",
+            "thanksgiving-visits-0002.jpg",
+            "thanksgiving-visits-0003.jpg",
+            "thanksgiving-visits-0004.jpg",
+            "thanksgiving-visits-0005.jpg",
+            "thanksgiving-visits-0006.jpg",
+            "thanksgiving-visits-0007.jpg",
+            "thanksgiving-visits-0008.jpg",
+            "thanksgiving-visits-0009.jpg"]
+    }
+]

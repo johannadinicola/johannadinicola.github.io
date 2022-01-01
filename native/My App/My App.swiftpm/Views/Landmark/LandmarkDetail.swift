@@ -10,38 +10,26 @@ struct LandmarkDetail: View {
     
     var body: some View {
         ScrollView {
-            MapView(coordinate: landmark.locationCoordinate)
-                .ignoresSafeArea(edges: .top)
-                .frame(height: 300)
-            
-            CircleImage(image: landmark.image)
+            CircleImage(image: landmark.mainImage)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
                 HStack {
-                    Text(landmark.name)
+                    Text(landmark.title)
                         .font(.title)
                     FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                 }
                 
-                HStack {
-                    Text(landmark.park)
-                    Spacer()
-                    Text(landmark.state)
-                }
-                .font(.subheadline)
-                .foregroundColor(.secondary)
-                
                 Divider()
                 
-                Text("About \(landmark.name)")
+                Text("About \(landmark.title)")
                     .font(.title2)
                 Text(landmark.description)
             }
             .padding()
         }
-        .navigationTitle(landmark.name)
+        .navigationTitle(landmark.title)
         .navigationBarTitleDisplayMode(.inline)
     }
 }

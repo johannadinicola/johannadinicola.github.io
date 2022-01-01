@@ -3,7 +3,7 @@ import Combine
 import SwiftUI
 
 final class ModelData: ObservableObject {
-    @Published var landmarks: [Landmark] = load("landmarkData.json")
+    @Published var landmarks: [Landmark] = load("postData.json")
     var hikes: [Hike] = load("hikeData.json")
     @Published var profile = Profile.default
     
@@ -14,7 +14,7 @@ final class ModelData: ObservableObject {
     var categories: [String: [Landmark]] {
         Dictionary(
             grouping: landmarks,
-            by: { $0.category.rawValue }
+            by: { $0.categories.rawValue }
         )
     }
 }

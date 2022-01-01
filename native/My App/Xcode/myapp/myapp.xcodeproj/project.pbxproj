@@ -41,8 +41,6 @@
 		A17E645F276F0980007917FF /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E643D276F0980007917FF /* Hike.swift */; };
 		A17E6460276F0980007917FF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E643E276F0980007917FF /* ModelData.swift */; };
 		A17E6461276F0980007917FF /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E643F276F0980007917FF /* Landmark.swift */; };
-		A17E6462276F0980007917FF /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = A17E6441276F0980007917FF /* hikeData.json */; };
-		A17E6463276F0980007917FF /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = A17E6442276F0980007917FF /* landmarkData.json */; };
 		A17E6494276F1AFD007917FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17E6493276F1AFD007917FF /* Assets.xcassets */; };
 		A17E649A276F1AFD007917FF /* WatchApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A17E6499276F1AFD007917FF /* WatchApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A17E64A1276F1AFD007917FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E64A0276F1AFD007917FF /* ContentView.swift */; };
@@ -53,7 +51,6 @@
 		A17E64AC276F1AFE007917FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17E64AB276F1AFE007917FF /* Preview Assets.xcassets */; };
 		A17E64B1276F1AFE007917FF /* WatchApp.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A17E6491276F1AFC007917FF /* WatchApp.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		A17E64BA276F1BC9007917FF /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = A17E6441276F0980007917FF /* hikeData.json */; };
-		A17E64BB276F1BC9007917FF /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = A17E6442276F0980007917FF /* landmarkData.json */; };
 		A17E64BC276F1BC9007917FF /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E643F276F0980007917FF /* Landmark.swift */; };
 		A17E64BD276F1BC9007917FF /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E643D276F0980007917FF /* Hike.swift */; };
 		A17E64BE276F1BC9007917FF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E643C276F0980007917FF /* Profile.swift */; };
@@ -78,7 +75,6 @@
 		A17E64E327704F07007917FF /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E643D276F0980007917FF /* Hike.swift */; };
 		A17E64E427704F07007917FF /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = A17E6441276F0980007917FF /* hikeData.json */; };
 		A17E64E527704F07007917FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17E6416276F0959007917FF /* Assets.xcassets */; };
-		A17E64E627704F07007917FF /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = A17E6442276F0980007917FF /* landmarkData.json */; };
 		A17E64E727704F07007917FF /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E643F276F0980007917FF /* Landmark.swift */; };
 		A17E64E927704F7A007917FF /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E64E827704F7A007917FF /* LandmarkDetail.swift */; };
 		A17E64EB277051BA007917FF /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E64EA277051BA007917FF /* LandmarkList.swift */; };
@@ -88,7 +84,6 @@
 		A17E64FA2770607B007917FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E64F92770607B007917FF /* ContentView.swift */; };
 		A17E64FC2770607D007917FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17E64FB2770607D007917FF /* Assets.xcassets */; };
 		A17E64FF2770607D007917FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A17E64FE2770607D007917FF /* Preview Assets.xcassets */; };
-		A17E650327706178007917FF /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = A17E6442276F0980007917FF /* landmarkData.json */; };
 		A17E650427706178007917FF /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E643D276F0980007917FF /* Hike.swift */; };
 		A17E650527706178007917FF /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E643E276F0980007917FF /* ModelData.swift */; };
 		A17E650627706178007917FF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17E643C276F0980007917FF /* Profile.swift */; };
@@ -106,6 +101,11 @@
 		A19BFAF5277EEE8600695050 /* img in Resources */ = {isa = PBXBuildFile; fileRef = A19BFAF3277EEE8600695050 /* img */; };
 		A19BFAF6277EEE8600695050 /* img in Resources */ = {isa = PBXBuildFile; fileRef = A19BFAF3277EEE8600695050 /* img */; };
 		A19BFAF7277EEE8600695050 /* img in Resources */ = {isa = PBXBuildFile; fileRef = A19BFAF3277EEE8600695050 /* img */; };
+		A19BFAFB2780388600695050 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = A17E6441276F0980007917FF /* hikeData.json */; };
+		A19BFAFC2780388600695050 /* postData.json in Resources */ = {isa = PBXBuildFile; fileRef = A19BFAF92780372C00695050 /* postData.json */; };
+		A19BFAFD2780388700695050 /* postData.json in Resources */ = {isa = PBXBuildFile; fileRef = A19BFAF92780372C00695050 /* postData.json */; };
+		A19BFAFE2780388800695050 /* postData.json in Resources */ = {isa = PBXBuildFile; fileRef = A19BFAF92780372C00695050 /* postData.json */; };
+		A19BFAFF2780388800695050 /* postData.json in Resources */ = {isa = PBXBuildFile; fileRef = A19BFAF92780372C00695050 /* postData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,7 +187,6 @@
 		A17E643E276F0980007917FF /* ModelData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		A17E643F276F0980007917FF /* Landmark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		A17E6441276F0980007917FF /* hikeData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hikeData.json; sourceTree = "<group>"; };
-		A17E6442276F0980007917FF /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		A17E6491276F1AFC007917FF /* WatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A17E6493276F1AFD007917FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A17E6499276F1AFD007917FF /* WatchApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WatchApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,6 +214,7 @@
 		A17E64FE2770607D007917FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A17E6512277062FC007917FF /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		A19BFAF3277EEE8600695050 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		A19BFAF92780372C00695050 /* postData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = postData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -403,7 +403,7 @@
 			children = (
 				A19BFAF3277EEE8600695050 /* img */,
 				A17E6441276F0980007917FF /* hikeData.json */,
-				A17E6442276F0980007917FF /* landmarkData.json */,
+				A19BFAF92780372C00695050 /* postData.json */,
 			);
 			name = Resources;
 			path = "../../../My App.swiftpm/Resources";
@@ -627,10 +627,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A19BFAF4277EEE8600695050 /* img in Resources */,
+				A19BFAFC2780388600695050 /* postData.json in Resources */,
 				A17E6408276F0849007917FF /* Preview Assets.xcassets in Resources */,
-				A17E6463276F0980007917FF /* landmarkData.json in Resources */,
-				A17E6462276F0980007917FF /* hikeData.json in Resources */,
 				A17E6417276F0959007917FF /* Assets.xcassets in Resources */,
+				A19BFAFB2780388600695050 /* hikeData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -647,8 +647,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A19BFAF5277EEE8600695050 /* img in Resources */,
+				A19BFAFD2780388700695050 /* postData.json in Resources */,
 				A17E64AC276F1AFE007917FF /* Preview Assets.xcassets in Resources */,
-				A17E64BB276F1BC9007917FF /* landmarkData.json in Resources */,
 				A17E64BA276F1BC9007917FF /* hikeData.json in Resources */,
 				A17E64A9276F1AFE007917FF /* Assets.xcassets in Resources */,
 				A17E64C4276F1BC9007917FF /* Assets.xcassets in Resources */,
@@ -660,10 +660,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A19BFAF6277EEE8600695050 /* img in Resources */,
+				A19BFAFE2780388800695050 /* postData.json in Resources */,
 				A17E64D627704E49007917FF /* Preview Assets.xcassets in Resources */,
 				A17E64E427704F07007917FF /* hikeData.json in Resources */,
 				A17E64E527704F07007917FF /* Assets.xcassets in Resources */,
-				A17E64E627704F07007917FF /* landmarkData.json in Resources */,
 				A17E64D327704E49007917FF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -673,10 +673,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A19BFAF7277EEE8600695050 /* img in Resources */,
+				A19BFAFF2780388800695050 /* postData.json in Resources */,
 				A17E64FF2770607D007917FF /* Preview Assets.xcassets in Resources */,
 				A17E64FC2770607D007917FF /* Assets.xcassets in Resources */,
 				A17E650827706178007917FF /* Assets.xcassets in Resources */,
-				A17E650327706178007917FF /* landmarkData.json in Resources */,
 				A17E650E27706178007917FF /* hikeData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

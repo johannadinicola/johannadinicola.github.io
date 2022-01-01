@@ -27,10 +27,9 @@ struct TextOverlay: View {
         ZStack(alignment: .bottomLeading) {
             gradient
             VStack(alignment: .leading) {
-                Text(landmark.name)
+                Text(landmark.title)
                     .font(.title)
                     .bold()
-                Text(landmark.park)
             }
             .padding()
         }

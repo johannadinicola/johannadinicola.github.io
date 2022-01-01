@@ -11,31 +11,16 @@ struct LandmarkDetail: View {
     var body: some View {
         ScrollView {
             VStack {
-                CircleImage(image: landmark.image.resizable())
+                CircleImage(image: landmark.mainImage.resizable())
                     .scaledToFit()
 
-                Text(landmark.name)
+                Text(landmark.title)
                     .font(.headline)
                     .lineLimit(0)
 
                 Toggle(isOn: $modelData.landmarks[landmarkIndex].isFavorite) {
                     Text("Favorite")
                 }
-
-                Divider()
-
-                Text(landmark.park)
-                    .font(.caption)
-                    .bold()
-                    .lineLimit(0)
-
-                Text(landmark.state)
-                    .font(.caption)
-
-                Divider()
-
-                MapView(coordinate: landmark.locationCoordinate)
-                    .scaledToFit()
             }
             .padding(16)
         }

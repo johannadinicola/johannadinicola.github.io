@@ -11,46 +11,23 @@ struct LandmarkDetail: View {
 
     var body: some View {
         ScrollView {
-            ZStack(alignment: Alignment(horizontal: .trailing, vertical: .top)) {
-                MapView(coordinate: landmark.locationCoordinate)
-                    .ignoresSafeArea(edges: .top)
-                    .frame(height: 300)
-                    .focusable()
-
-                #if os(macOS)
-                Button("Open in Maps") {
-                    let destination = MKMapItem(placemark: MKPlacemark(coordinate: landmark.locationCoordinate))
-                    destination.name = landmark.name
-                    destination.openInMaps()
-                }
-                .padding()
-                #endif
-            }
-
             VStack(alignment: .leading, spacing: 20) {
                 HStack(spacing: 24) {
-                    CircleImage(image: landmark.image.resizable())
+                    CircleImage(image: landmark.mainImage.resizable())
                         .frame(width: 160, height: 160)
 
                     VStack(alignment: .leading) {
                         HStack {
-                            Text(landmark.name)
+                            Text(landmark.title)
                                 .font(.title)
                             FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
                         }
-
-                        VStack(alignment: .leading) {
-                            Text(landmark.park)
-                            Text(landmark.state)
-                        }
-                        .font(.subheadline)
-                        .foregroundColor(.secondary)
                     }
                 }
 
                 Divider()
 
-                Text("About \(landmark.name)")
+                Text("About \(landmark.title)")
                     .font(.title2)
                     .focusable()
                 Text(landmark.description)
@@ -60,7 +37,7 @@ struct LandmarkDetail: View {
             .frame(maxWidth: 700)
             .offset(y: -50)
         }
-        .navigationTitle(landmark.name)
+        .navigationTitle(landmark.title)
     }
 }
 

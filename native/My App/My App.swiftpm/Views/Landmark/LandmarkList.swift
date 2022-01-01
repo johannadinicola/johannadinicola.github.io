@@ -18,7 +18,7 @@ struct LandmarkList: View {
     var filteredLandmarks: [Landmark] {
         modelData.landmarks.filter { landmark in
             (!showFavoritesOnly || landmark.isFavorite)
-                && (filter == .all || filter.rawValue == landmark.category.rawValue)
+                && (filter == .all || filter.rawValue == landmark.categories.rawValue)
         }
     }
 

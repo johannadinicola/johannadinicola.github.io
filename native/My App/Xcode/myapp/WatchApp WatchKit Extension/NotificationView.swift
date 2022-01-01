@@ -8,7 +8,7 @@ struct NotificationView: View {
     var body: some View {
         VStack {
             if landmark != nil {
-                CircleImage(image: landmark!.image.resizable())
+                CircleImage(image: landmark!.mainImage.resizable())
                     .scaledToFit()
             }
 
