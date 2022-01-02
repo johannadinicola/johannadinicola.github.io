@@ -12,7 +12,7 @@ final class ModelData: ObservableObject {
     var categories: [String: [Post]] {
         Dictionary(
             grouping: posts,
-            by: { $0.categories.rawValue }
+            by: { $0.tag?.rawValue ?? "" }
         )
     }
 }

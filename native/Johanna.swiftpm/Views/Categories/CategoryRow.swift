@@ -32,7 +32,7 @@ struct CategoryRow_Previews: PreviewProvider {
     
     static var previews: some View {
         CategoryRow(
-            categoryName: posts[0].categories.rawValue,
+            categoryName: posts[0].tag?.rawValue ?? "",
             items: Array(posts.prefix(4))
             )
     }

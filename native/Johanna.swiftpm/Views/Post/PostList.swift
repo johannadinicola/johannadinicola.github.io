@@ -7,7 +7,8 @@ struct PostList: View {
 
     var filteredPosts: [Post] {
         modelData.posts.filter { post in
-            !showFavoritesOnly || post.isFavorite
+            (!showFavoritesOnly || post.isFavorite)
+            && post.tag != nil
         }
     }
 

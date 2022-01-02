@@ -10,9 +10,15 @@ struct Post: Hashable, Codable, Identifiable {
     
     var isFavorite: Bool
     
-    var categories: Category
-    enum Category: String, CaseIterable, Codable {
-        case posts = "posts"
+    private var tags: String
+    var tag: Tag? {
+        tags
+            .split(separator: " ")
+            .compactMap { Tag(rawValue: String($0)) }
+            .first
+    }
+    enum Tag: String, CaseIterable, Codable {
+        case photos = "photos"
     }
     
     private var imagePath: String

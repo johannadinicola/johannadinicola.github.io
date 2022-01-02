@@ -7,7 +7,7 @@
         "imagePath": "img/posts/2021/11/28/halloween-time-with-friends",
         "image": "halloween-time-with-friends-preview.jpg",
         "date":   "2021-11-28",
-        "categories": "posts",
+        "tags": "photos",
         "isFavorite": false,
         "images": [
             "halloween-time-with-friends-0001.jpg",
@@ -29,7 +29,7 @@
         "imagePath": "img/posts/2021/12/11/thanksgiving-visits",
         "image": "thanksgiving-visits-preview.jpg",
         "date":   "2021-12-11",
-        "categories": "posts",
+        "tags": "photos",
         "isFavorite": false,
         "images": [
             "thanksgiving-visits-0001.jpg",
