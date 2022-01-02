@@ -1,44 +1,44 @@
 import SwiftUI
 
-struct LandmarkDetail: View {
+struct PostDetail: View {
     @EnvironmentObject var modelData: ModelData
-    var landmark: Landmark
+    var post: Post
     
-    var landmarkIndex: Int {
-        modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+    var postIndex: Int {
+        modelData.posts.firstIndex(where: { $0.id == post.id })!
     }
     
     var body: some View {
         ScrollView {
-            CircleImage(image: landmark.mainImage)
+            CircleImage(image: post.mainImage)
                 .offset(y: -130)
                 .padding(.bottom, -130)
             
             VStack(alignment: .leading) {
                 HStack {
-                    Text(landmark.title)
+                    Text(post.title)
                         .font(.title)
-                    FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                    FavoriteButton(isSet: $modelData.posts[postIndex].isFavorite)
                 }
                 
                 Divider()
                 
-                Text("About \(landmark.title)")
+                Text("About \(post.title)")
                     .font(.title2)
-                Text(landmark.description)
+                Text(post.description)
             }
             .padding()
         }
-        .navigationTitle(landmark.title)
+        .navigationTitle(post.title)
         .navigationBarTitleDisplayMode(.inline)
     }
 }
 
-struct LandmarkDetail_Previews: PreviewProvider {
+struct PostDetail_Previews: PreviewProvider {
     static let modelData = ModelData()
     
     static var previews: some View {
-        LandmarkDetail(landmark: modelData.landmarks[0])
+        PostDetail(post: modelData.posts[0])
             .environmentObject(modelData)
     }
 }

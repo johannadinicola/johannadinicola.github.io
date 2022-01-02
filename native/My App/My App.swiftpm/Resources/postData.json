@@ -9,7 +9,6 @@
         "date":   "2021-11-28",
         "categories": "posts",
         "isFavorite": false,
-        "isFeatured": true,
         "images": [
             "halloween-time-with-friends-0001.jpg",
             "halloween-time-with-friends-0002.jpg",
@@ -32,7 +31,6 @@
         "date":   "2021-12-11",
         "categories": "posts",
         "isFavorite": false,
-        "isFeatured": true,
         "images": [
             "thanksgiving-visits-0001.jpg",
             "thanksgiving-visits-0002.jpg",

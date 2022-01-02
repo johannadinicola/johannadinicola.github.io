@@ -1,51 +1,51 @@
 import SwiftUI
 import MapKit
 
-struct LandmarkDetail: View {
+struct PostDetail: View {
     @EnvironmentObject var modelData: ModelData
-    var landmark: Landmark
+    var post: Post
 
-    var landmarkIndex: Int {
-        modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+    var postIndex: Int {
+        modelData.posts.firstIndex(where: { $0.id == post.id })!
     }
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
                 HStack(spacing: 24) {
-                    CircleImage(image: landmark.mainImage.resizable())
+                    CircleImage(image: post.mainImage.resizable())
                         .frame(width: 160, height: 160)
 
                     VStack(alignment: .leading) {
                         HStack {
-                            Text(landmark.title)
+                            Text(post.title)
                                 .font(.title)
-                            FavoriteButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+                            FavoriteButton(isSet: $modelData.posts[postIndex].isFavorite)
                         }
                     }
                 }
 
                 Divider()
 
-                Text("About \(landmark.title)")
+                Text("About \(post.title)")
                     .font(.title2)
                     .focusable()
-                Text(landmark.description)
+                Text(post.description)
                     .focusable()
             }
             .padding()
             .frame(maxWidth: 700)
             .offset(y: -50)
         }
-        .navigationTitle(landmark.title)
+        .navigationTitle(post.title)
     }
 }
 
-struct LandmarkDetail_Previews: PreviewProvider {
+struct PostDetail_Previews: PreviewProvider {
     static let modelData = ModelData()
 
     static var previews: some View {
-        LandmarkDetail(landmark: modelData.landmarks[0])
+        PostDetail(post: modelData.posts[0])
             .environmentObject(modelData)
             .frame(width: 850, height: 700)
     }

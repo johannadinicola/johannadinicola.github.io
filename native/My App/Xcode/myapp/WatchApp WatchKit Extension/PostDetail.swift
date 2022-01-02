@@ -1,42 +1,42 @@
 import SwiftUI
 
-struct LandmarkDetail: View {
+struct PostDetail: View {
     @EnvironmentObject var modelData: ModelData
-    var landmark: Landmark
+    var post: Post
 
-    var landmarkIndex: Int {
-        modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+    var postIndex: Int {
+        modelData.posts.firstIndex(where: { $0.id == post.id })!
     }
 
     var body: some View {
         ScrollView {
             VStack {
-                CircleImage(image: landmark.mainImage.resizable())
+                CircleImage(image: post.mainImage.resizable())
                     .scaledToFit()
 
-                Text(landmark.title)
+                Text(post.title)
                     .font(.headline)
                     .lineLimit(0)
 
-                Toggle(isOn: $modelData.landmarks[landmarkIndex].isFavorite) {
+                Toggle(isOn: $modelData.posts[postIndex].isFavorite) {
                     Text("Favorite")
                 }
             }
             .padding(16)
         }
-        .navigationTitle("Landmarks")
+        .navigationTitle("Posts")
     }
 }
 
-struct LandmarkDetail_Previews: PreviewProvider {
+struct PostDetail_Previews: PreviewProvider {
     static var previews: some View {
         let modelData = ModelData()
         return Group {
-            LandmarkDetail(landmark: modelData.landmarks[0])
+            PostDetail(post: modelData.posts[0])
                 .environmentObject(modelData)
                 .previewDevice("Apple Watch Series 5 - 44mm")
 
-            LandmarkDetail(landmark: modelData.landmarks[1])
+            PostDetail(post: modelData.posts[1])
                 .environmentObject(modelData)
                 .previewDevice("Apple Watch Series 5 - 40mm")
         }

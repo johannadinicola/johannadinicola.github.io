@@ -1,28 +1,28 @@
 import SwiftUI
 
 struct LandmarkCommands: Commands {
-    @FocusedBinding(\.selectedLandmark) var selectedLandmark
+    @FocusedBinding(\.selectedPost) var selectedPost
 
     var body: some Commands {
         SidebarCommands()
         
         CommandMenu("Landmark") {
-            Button("\(selectedLandmark?.isFavorite == true ? "Remove" : "Mark") as Favorite") {
-                selectedLandmark?.isFavorite.toggle()
+            Button("\(selectedPost?.isFavorite == true ? "Remove" : "Mark") as Favorite") {
+                selectedPost?.isFavorite.toggle()
             }
             .keyboardShortcut("f", modifiers: [.shift, .option])
-            .disabled(selectedLandmark == nil)
+            .disabled(selectedPost == nil)
         }
     }
 }
 
-private struct SelectedLandmarkKey: FocusedValueKey {
-    typealias Value = Binding<Landmark>
+private struct SelectedPostKey: FocusedValueKey {
+    typealias Value = Binding<Post>
 }
 
 extension FocusedValues {
-    var selectedLandmark: Binding<Landmark>? {
-        get { self[SelectedLandmarkKey.self] }
-        set { self[SelectedLandmarkKey.self] = newValue }
+    var selectedPost: Binding<Post>? {
+        get { self[SelectedPostKey.self] }
+        set { self[SelectedPostKey.self] = newValue }
     }
 }

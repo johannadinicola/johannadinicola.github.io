@@ -3,17 +3,15 @@ import Combine
 import SwiftUI
 
 final class ModelData: ObservableObject {
-    @Published var landmarks: [Landmark] = load("postData.json")
-    var hikes: [Hike] = load("hikeData.json")
-    @Published var profile = Profile.default
+    @Published var posts: [Post] = load("postData.json")
     
-    var features: [Landmark] {
-        landmarks.filter { $0.isFeatured }
+    var features: [Post] {
+        posts.suffix(3).reversed()
     }
     
-    var categories: [String: [Landmark]] {
+    var categories: [String: [Post]] {
         Dictionary(
-            grouping: landmarks,
+            grouping: posts,
             by: { $0.categories.rawValue }
         )
     }

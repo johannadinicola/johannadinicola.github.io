@@ -1,12 +1,12 @@
 import SwiftUI
 
-struct LandmarkList: View {
+struct PostList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
     
-    var filteredLandmarks: [Landmark] {
-        modelData.landmarks.filter { landmark in
-            (!showFavoritesOnly || landmark.isFavorite)
+    var filteredPosts: [Post] {
+        modelData.posts.filter { post in
+            (!showFavoritesOnly || post.isFavorite)
         }
     }
     
@@ -17,24 +17,24 @@ struct LandmarkList: View {
                     Text("Favorites only")
                 }
                 
-                ForEach(filteredLandmarks) { landmark in
+                ForEach(filteredPosts) { post in
                     NavigationLink {
-                        LandmarkDetail(landmark: landmark)
+                        PostDetail(post: post)
                     } label: {
-                        LandmarkRow(landmark: landmark)
+                        PostRow(post: post)
                     }
                 }
             }
-            .navigationTitle("Landmarks")
+            .navigationTitle("Posts")
             .animation(.default, value: showFavoritesOnly)
         }
     }
 }
 
-struct LandmarkList_Previews: PreviewProvider {
+struct PostList_Previews: PreviewProvider {
     static var previews: some View {
         ForEach(["iPhone SE (2nd generation)", "iPhone XS Max"], id: \.self) { deviceName in
-            LandmarkList()
+            PostList()
                 .previewDevice(PreviewDevice(rawValue: deviceName))
                 .previewDisplayName(deviceName)
         }

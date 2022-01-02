@@ -9,7 +9,6 @@ struct Post: Hashable, Codable, Identifiable {
     var images: [String]
     
     var isFavorite: Bool
-    var isFeatured: Bool
     
     var categories: Category
     enum Category: String, CaseIterable, Codable {
@@ -21,7 +20,7 @@ struct Post: Hashable, Codable, Identifiable {
     var mainImage: Image {
         loadImage(images.first!, subdirectory: imagePath)
     }
-    var featureImage: Image? {
-        isFeatured ? loadImage(image, subdirectory: imagePath) : nil
+    var featureImage: Image {
+        loadImage(image, subdirectory: imagePath)
     }
 }

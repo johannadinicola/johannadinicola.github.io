@@ -3,17 +3,17 @@ import SwiftUI
 import UserNotifications
 
 class NotificationController: WKUserNotificationHostingController<NotificationView> {
-    var landmark: Landmark?
+    var post: Post?
     var title: String?
     var message: String?
     
-    let landmarkIndexKey = "landmarkIndex"
+    let postIndexKey = "postIndex"
     
     override var body: NotificationView {
         NotificationView(
             title: title,
             message: message,
-            landmark: landmark
+            post: post
         )
     }
     
@@ -39,8 +39,8 @@ class NotificationController: WKUserNotificationHostingController<NotificationVi
         title = alert?["title"] as? String
         message = alert?["body"] as? String
 
-        if let index = notificationData?[landmarkIndexKey] as? Int {
-            landmark = modelData.landmarks[index]
+        if let index = notificationData?[postIndexKey] as? Int {
+            post = modelData.posts[index]
         }
     }
 }

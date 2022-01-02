@@ -7,7 +7,7 @@ struct CategoryHome: View {
     var body: some View {
         NavigationView {
             List {
-                PageView(pages: modelData.features.map { FeatureCard(landmark: $0) })
+                PageView(pages: modelData.features.map { FeatureCard(post: $0) })
                     .aspectRatio(3 / 2, contentMode: .fit)
                     .listRowInsets(EdgeInsets())
                 
@@ -18,17 +18,6 @@ struct CategoryHome: View {
             }
             .listStyle(.inset)
             .navigationTitle("Featured")
-            .toolbar {
-                Button {
-                    showingProfile.toggle()
-                } label: {
-                    Label("User Profile", systemImage: "person.crop.circle")
-                }
-            }
-            .sheet(isPresented: $showingProfile) {
-                ProfileHost()
-                    .environmentObject(modelData)
-            }
         }
     }
 }

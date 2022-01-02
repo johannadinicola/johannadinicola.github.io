@@ -16,7 +16,7 @@ struct ContentView: View {
                 }
                 .tag(Tab.featured)
             
-            LandmarkList()
+            PostList()
                 .tabItem {
                     Label("List", systemImage: "list.bullet")
                 }

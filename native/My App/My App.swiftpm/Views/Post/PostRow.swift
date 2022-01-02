@@ -1,22 +1,22 @@
 import SwiftUI
 
-struct LandmarkRow: View {
-    var landmark: Landmark
+struct PostRow: View {
+    var post: Post
 
     var body: some View {
         HStack {
-            landmark.mainImage
+            post.mainImage
                 .resizable()
                 .frame(width: 50, height: 50)
                 .cornerRadius(5)
             VStack(alignment: .leading) {
-                Text(landmark.title)
+                Text(post.title)
                     .bold()
             }
             
             Spacer()
             
-            if landmark.isFavorite {
+            if post.isFavorite {
                 Image(systemName: "star.fill")
                     .imageScale(.medium)
                     .foregroundColor(.yellow)
@@ -26,13 +26,13 @@ struct LandmarkRow: View {
     }
 }
 
-struct LandmarkRow_Previews: PreviewProvider {
-    static var landmarks = ModelData().landmarks
+struct PostRow_Previews: PreviewProvider {
+    static var posts = ModelData().posts
     
     static var previews: some View {
         Group {
-            LandmarkRow(landmark: landmarks[0])
-            LandmarkRow(landmark: landmarks[1])
+            PostRow(post: posts[0])
+            PostRow(post: posts[1])
         }
         .previewLayout(.fixed(width: 300, height: 70))
     }
