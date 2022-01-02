@@ -3,13 +3,21 @@ import SwiftUI
 struct CircleImage: View {
     var image: Image
     
-    var body: some View {
+    fileprivate var circleImageView: some View {
         image
             .clipShape(Circle())
-            .overlay {
-                Circle().stroke(.white, lineWidth: 4)
-            }
             .shadow(radius: 7)
+    }
+    
+    var body: some View {
+        if #available(iOS 15.0, watchOSApplicationExtension 8.0, macOS 12.0, tvOS 15.0, *) {
+            circleImageView
+                .overlay {
+                    Circle().stroke(.white, lineWidth: 4)
+                }
+        } else {
+            circleImageView
+        }
     }
 }
 

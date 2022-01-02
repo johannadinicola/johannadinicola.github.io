@@ -3,13 +3,21 @@ import SwiftUI
 struct FeatureCard: View {
     var post: Post
     
-    var body: some View {
+    fileprivate var featureCardView: some View {
         post.featureImage
             .resizable()
             .aspectRatio(3 / 2, contentMode: .fit)
-            .overlay {
-                TextOverlay(post: post)
-            }
+    }
+    
+    var body: some View {
+        if #available(iOS 15.0, *) {
+            featureCardView
+                .overlay {
+                    TextOverlay(post: post)
+                }
+        } else {
+            featureCardView
+        }
     }
 }
 
