@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome Home Johanna"
 description: "Johanna was born at 11:14 PM on Oct 1, weighing 7 lb, 15.3 oz."
-image: /native/My App/My App.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-preview.jpg
+image: /native/Johanna.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-preview.jpg
 date:   2020-10-10 12:00:00 -0400
 categories: posts
 tags: photos
@@ -23,13 +23,13 @@ excerpt_separator: <!--more-->
 
 {{ page.description }} <!--more--> She was 46 minutes early for her due date at Boston Medical Center. She has lots of dark hair and blue eyes.
 
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0001.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0002.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0003.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0004.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0005.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0006.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0007.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0008.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0009.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0010.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0001.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0002.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0003.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0004.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0005.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0006.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0007.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0008.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0009.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/10/10/welcome-home-johanna/welcome-home-johanna-0010.jpg)

@@ -2,7 +2,7 @@
 layout: post
 title:  "Thanksgiving Visits"
 description: "Johanna had a great Thanksgiving week!"
-image: /native/My App/My App.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-preview.jpg
+image: /native/Johanna.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-preview.jpg
 date:   2021-12-11 12:00:00 -0400
 categories: posts
 tags: photos
@@ -23,12 +23,12 @@ excerpt_separator: <!--more-->
 {{ page.description }} <!--more--> She had dinner at Grammy's, saw her aunt and lots of friends, and had plenty of leftovers.
 
 
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0001.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0002.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0003.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0004.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0005.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0006.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0007.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0008.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0009.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0001.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0002.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0003.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0004.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0005.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0006.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0007.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0008.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-0009.jpg)

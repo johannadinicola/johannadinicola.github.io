@@ -4,7 +4,7 @@ title: "Johanna's Housewarming [Update 7/10]"
 description: "Johanna wants you to visit her new house and to finally come meet her if you haven't had a chance!"
 date: 2021-06-13 12:00:00 -0400
 categories: posts
-tags: events
+tags: photos
 images: [
 	johanna-housewarming-0001, 
 	johanna-housewarming-0002,
@@ -29,11 +29,11 @@ Hope to see you then!
 
 [**Update 7/10**] Thanks to everyone who joined! A rainy weekend didn't stop us!
 
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0001.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0002.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0003.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0004.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0005.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0006.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0007.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0008.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0001.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0002.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0003.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0004.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0005.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0006.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0007.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2021/06/13/johanna-housewarming/johanna-housewarming-0008.jpg)

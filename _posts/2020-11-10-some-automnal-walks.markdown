@@ -2,7 +2,7 @@
 layout: post
 title:  "Some Autumnal Walks"
 description: "Johanna got out of the house a few times for some walks."
-image: /native/My App/My App.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-preview.jpg
+image: /native/Johanna.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-preview.jpg
 date:   2020-11-10 11:00:00 -0400
 categories: posts
 tags: photos
@@ -21,11 +21,11 @@ excerpt_separator: <!--more-->
 
 {{ page.description }} <!--more--> We went down to Fellsmere Pond with Michelle and recreated the walk we took just before she was born, and Amber & CJ took a rainy walk with us, too.
 
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0001.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0002.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0003.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0004.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0005.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0006.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0007.jpg)
-![.](/native/My App/My App.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0008.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0001.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0002.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0003.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0004.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0005.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0006.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0007.jpg)
+![.](/native/Johanna.swiftpm/Resources/img/posts/2020/11/10/some-automnal-walks/some-automnal-walks-0008.jpg)
