@@ -4,9 +4,8 @@
         "title":  "Halloween Time with Friends",
         "description": "We saw lots of our favorite people in October and November!",
         "body": "Johanna dressed up as a jaguar shark, started holding her own bottle, and played with her favorite toy, the tv remote.",
-        "imagePath": "img/posts/2021/11/28/halloween-time-with-friends",
-        "image": "halloween-time-with-friends-preview.jpg",
-        "date":   "2021-11-28",
+        "image": "/native/Johanna.swiftpm/Resources/img/posts/2021/11/28/halloween-time-with-friends/halloween-time-with-friends-preview.jpg",
+        "date":   "2021-11-28 12:00:00 -0400",
         "tags": "photos",
         "isFavorite": false,
         "images": [
@@ -26,9 +25,8 @@
         "title":  "Thanksgiving Visits",
         "description": "Johanna had a great Thanksgiving week!",
         "body": "She had dinner at Grammy's, saw her aunt and lots of friends, and had plenty of leftovers.",
-        "imagePath": "img/posts/2021/12/11/thanksgiving-visits",
-        "image": "thanksgiving-visits-preview.jpg",
-        "date":   "2021-12-11",
+        "image": "/native/Johanna.swiftpm/Resources/img/posts/2021/12/11/thanksgiving-visits/thanksgiving-visits-preview.jpg",
+        "date":   "2021-12-11 12:00:00 -0400",
         "tags": "photos",
         "isFavorite": false,
         "images": [

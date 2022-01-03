@@ -5,15 +5,21 @@ struct Post: Hashable, Codable, Identifiable {
     var title: String
     var description: String
     var body: String
-    var date: String
     var images: [String]
     
     var isFavorite: Bool
     
+    private var date: String
+    var postDate: Date? {
+        let components = date.split(separator: " ")
+        if components.count != 3 { return nil }
+        let date = "\(components[0])T\(components[1])\(components[2])"
+        return ISO8601DateFormatter().date(from: date)
+    }
+    
     private var tags: String
     var tag: Tag? {
-        tags
-            .split(separator: " ")
+        tags.split(separator: " ")
             .compactMap { Tag(rawValue: String($0)) }
             .first
     }
@@ -21,12 +27,15 @@ struct Post: Hashable, Codable, Identifiable {
         case photos = "photos"
     }
     
-    private var imagePath: String
-    private var image: String
+    private var image: URL
+    private var imagePath: String {
+        let pathComponents = image.pathComponents.suffix(7).prefix(6)
+        return pathComponents.joined(separator: "/")
+    }
     var mainImage: Image {
         loadImage(images.first!, subdirectory: imagePath)
     }
     var featureImage: Image {
-        loadImage(image, subdirectory: imagePath)
+        loadImage(image.lastPathComponent, subdirectory: imagePath)
     }
 }
