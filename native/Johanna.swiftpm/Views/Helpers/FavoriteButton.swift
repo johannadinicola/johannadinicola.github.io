@@ -5,7 +5,7 @@ struct FavoriteButton: View {
     
     var body: some View {
         Button {
-            isSet.toggle()
+            DispatchQueue.main.async { self.isSet.toggle() }
         } label: {
             Label("Toggle Favorite", systemImage: isSet ? "star.fill" : "star")
                 .labelStyle(.iconOnly)

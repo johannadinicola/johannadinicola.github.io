@@ -7,7 +7,11 @@ struct Post: Hashable, Codable, Identifiable {
     var body: String
     var images: [String]
     
-    var isFavorite: Bool
+    private var favorite: Bool?
+    var isFavorite: Bool {
+        set { favorite = newValue }
+        get { favorite ?? false }
+    }
     
     private var date: String
     var postDate: Date? {
