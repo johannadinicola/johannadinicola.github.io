@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "Happy Easter 2022!"
+description: "...and Happy Mother's Day, too!"
+image: /assets/img/posts/2022/05/08/happy-easter-2022/happy-easter-2022-preview.jpg
+date:   2022-05-08 12:00:00 -0400
+categories: posts
+tags: photos
+images: [
+	happy-easter-2022-0001, 
+	happy-easter-2022-0002,
+	happy-easter-2022-0003, 
+	happy-easter-2022-0004,
+	happy-easter-2022-0005, 
+	happy-easter-2022-0006,
+	happy-easter-2022-0007, 
+	happy-easter-2022-0008,
+	happy-easter-2022-0009,
+	happy-easter-2022-0010]
+author: Mike
+excerpt_separator: <!--more-->
+---
+
+{{ page.description }} <!--more--> Today is Mother's Day, but we are catching up with Easter photos... which feature mom, grammies, and even Nonni's cookies! Thank you moms for giving us so much love!
+
+![.](/assets/img/posts/2022/05/08/happy-easter-2022/happy-easter-2022-0001.jpg)
+![.](/assets/img/posts/2022/05/08/happy-easter-2022/happy-easter-2022-0002.jpg)
+![.](/assets/img/posts/2022/05/08/happy-easter-2022/happy-easter-2022-0003.jpg)
+![.](/assets/img/posts/2022/05/08/happy-easter-2022/happy-easter-2022-0004.jpg)
+![.](/assets/img/posts/2022/05/08/happy-easter-2022/happy-easter-2022-0005.jpg)
+![.](/assets/img/posts/2022/05/08/happy-easter-2022/happy-easter-2022-0006.jpg)
+![.](/assets/img/posts/2022/05/08/happy-easter-2022/happy-easter-2022-0007.jpg)
+![.](/assets/img/posts/2022/05/08/happy-easter-2022/happy-easter-2022-0008.jpg)
+![.](/assets/img/posts/2022/05/08/happy-easter-2022/happy-easter-2022-0009.jpg)
+![.](/assets/img/posts/2022/05/08/happy-easter-2022/happy-easter-2022-0010.jpg)
