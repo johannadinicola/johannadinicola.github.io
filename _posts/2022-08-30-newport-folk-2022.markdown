@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Newport Folk 2022"
+description: "Johanna visited the fort for her seconds Newport Folk Fest and got to hang with Grammy & Grandpa!"
+image: /assets/img/posts/2022/08/30/newport-folk-2022/newport-folk-2022-preview.jpg
+date:   2022-08-30 12:00:00 -0400
+categories: posts
+tags: photos
+images: [
+	newport-folk-2022-0001, 
+	newport-folk-2022-0002,
+	newport-folk-2022-0003, 
+	newport-folk-2022-0004,
+	newport-folk-2022-0005, 
+	newport-folk-2022-0006,
+	newport-folk-2022-0007, 
+	newport-folk-2022-0008,
+	newport-folk-2022-0009]
+author: Mike
+excerpt_separator: <!--more-->
+---
+
+{{ page.description }} <!--more--> She danced to lots of live music, including a special performance by Joni Mitchell.
+
+![.](/assets/img/posts/2022/08/30/newport-folk-2022/newport-folk-2022-0001.jpg)
+![.](/assets/img/posts/2022/08/30/newport-folk-2022/newport-folk-2022-0002.jpg)
+![.](/assets/img/posts/2022/08/30/newport-folk-2022/newport-folk-2022-0003.jpg)
+![.](/assets/img/posts/2022/08/30/newport-folk-2022/newport-folk-2022-0004.jpg)
+![.](/assets/img/posts/2022/08/30/newport-folk-2022/newport-folk-2022-0005.jpg)
+![.](/assets/img/posts/2022/08/30/newport-folk-2022/newport-folk-2022-0006.jpg)
+![.](/assets/img/posts/2022/08/30/newport-folk-2022/newport-folk-2022-0007.jpg)
+![.](/assets/img/posts/2022/08/30/newport-folk-2022/newport-folk-2022-0008.jpg)
+![.](/assets/img/posts/2022/08/30/newport-folk-2022/newport-folk-2022-0009.jpg)
