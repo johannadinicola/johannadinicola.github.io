@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Newport Folk 2022"
-description: "Johanna visited the fort for her seconds Newport Folk Fest and got to hang with Grammy & Grandpa!"
+description: "Johanna visited the fort for her second Newport Folk Fest and got to hang with Grammy & Grandpa!"
 image: /assets/img/posts/2022/08/30/newport-folk-2022/newport-folk-2022-preview.jpg
 date:   2022-08-30 12:00:00 -0400
 categories: posts
