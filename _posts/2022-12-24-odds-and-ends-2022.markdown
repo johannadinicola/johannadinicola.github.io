@@ -1,0 +1,36 @@
+---
+layout: post
+title:  "Odds & Ends 2022"
+description: "Johanna did what she does best this year"
+image: /assets/img/posts/2022/12/24/odds-and-ends-2022/odds-and-ends-2022-preview.jpg
+date:   2022-12-24 10:00:00 -0400
+categories: posts
+tags: photos
+images: [
+	odds-and-ends-2022-0001,
+	odds-and-ends-2022-0002, 	
+	odds-and-ends-2022-0003, 
+	odds-and-ends-2022-0004,
+	odds-and-ends-2022-0005, 
+	odds-and-ends-2022-0006,
+	odds-and-ends-2022-0007, 
+	odds-and-ends-2022-0008,
+	odds-and-ends-2022-0009,
+	odds-and-ends-2022-0010,
+]
+author: Mike
+excerpt_separator: <!--more-->
+---
+
+{{ page.description }} <!--more--> - went on adventures, had silly times, and snuggled with Ruby and Angus.
+
+![.](/assets/img/posts/2022/12/24/odds-and-ends-2022/odds-and-ends-2022-0001.jpg)
+![.](/assets/img/posts/2022/12/24/odds-and-ends-2022/odds-and-ends-2022-0002.jpg)
+![.](/assets/img/posts/2022/12/24/odds-and-ends-2022/odds-and-ends-2022-0003.jpg)
+![.](/assets/img/posts/2022/12/24/odds-and-ends-2022/odds-and-ends-2022-0004.jpg)
+![.](/assets/img/posts/2022/12/24/odds-and-ends-2022/odds-and-ends-2022-0005.jpg)
+![.](/assets/img/posts/2022/12/24/odds-and-ends-2022/odds-and-ends-2022-0006.jpg)
+![.](/assets/img/posts/2022/12/24/odds-and-ends-2022/odds-and-ends-2022-0007.jpg)
+![.](/assets/img/posts/2022/12/24/odds-and-ends-2022/odds-and-ends-2022-0008.jpg)
+![.](/assets/img/posts/2022/12/24/odds-and-ends-2022/odds-and-ends-2022-0009.jpg)
+![.](/assets/img/posts/2022/12/24/odds-and-ends-2022/odds-and-ends-2022-0010.jpg)
