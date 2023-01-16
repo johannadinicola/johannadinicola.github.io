@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Merry Christmas 2022, Part II"
-description: "Johanna had a great Christmas to Nonni's!"
+description: "Johanna had a great Christmas at Nonni's!"
 image: /assets/img/posts/2023/01/15/merry-christmas-2022-ii/merry-christmas-2022-ii-preview.jpg
 date:   2023-01-15 12:00:00 -0400
 categories: posts
