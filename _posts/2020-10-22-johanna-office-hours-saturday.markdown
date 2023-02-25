@@ -4,7 +4,7 @@ title: "Johanna Office Hours Saturday [Update 10/26]"
 description: "Johanna will be hosting office hours for anybody who would like to say hello!"
 date: 2020-10-22 17:00:00 -0400
 categories: posts
-tags: office_hours events
+tags: unlisted office_hours events
 author: Mike
 ---
 
