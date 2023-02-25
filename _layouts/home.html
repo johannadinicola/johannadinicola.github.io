@@ -24,40 +24,43 @@ layout: default
     <ul class="post-list">
       {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
       {% for post in posts %}
-        <li>
-          <h3 style="margin-bottom: 0">
-            <a class="post-link" href="{{ post.url | relative_url }}">
-              {{ post.title | escape }}
-            </a>
-          </h3>
-          <div><span class="post-meta">{{ post.date | date: date_format }}</span>
-            <p>
-          </div>
-          {% if site.show_excerpts %}
-            {{ post.excerpt }}
-            {% if post.images %}
+        {% if post.tags contains "unlisted" %}   
+        {% else %}
+          <li>
+            <h3 style="margin-bottom: 0">
               <a class="post-link" href="{{ post.url | relative_url }}">
-                {% for image in post.images %}
-                  {% if image == post.images[0] %}
-                    <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}.jpg" alt="{{ image }}" />
-                  {% else %}
-                    <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}-tn.jpg" height="32"
-                      style="padding-right:8px" alt="{{ image }}" />
-                  {% endif %}
-                {% endfor %}
+                {{ post.title | escape }}
               </a>
-            {% else %}
-              <h5>
+            </h3>
+            <div><span class="post-meta">{{ post.date | date: date_format }}</span>
+              <p>
+            </div>
+            {% if site.show_excerpts %}
+              {{ post.excerpt }}
+              {% if post.images %}
                 <a class="post-link" href="{{ post.url | relative_url }}">
-                  MORE
+                  {% for image in post.images %}
+                    {% if image == post.images[0] %}
+                      <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}.jpg" alt="{{ image }}" />
+                    {% else %}
+                      <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}-tn.jpg" height="32"
+                        style="padding-right:8px" alt="{{ image }}" />
+                    {% endif %}
+                  {% endfor %}
                 </a>
-              </h5>
+              {% else %}
+                <h5>
+                  <a class="post-link" href="{{ post.url | relative_url }}">
+                    MORE
+                  </a>
+                </h5>
+              {% endif %}
             {% endif %}
-          {% endif %}
-          <div>
-            <p>
-          </div>
-        </li>
+            <div>
+              <p>
+            </div>
+          </li>
+        {% endif %}
       {% endfor %}
     </ul>
 
