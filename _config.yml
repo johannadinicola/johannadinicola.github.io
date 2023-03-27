@@ -10,6 +10,11 @@ github: [metadata]
 show_excerpts: true
 future: false
 paginate: 5
+defaults:
+  - scope:
+      path: "assets/img/posts"
+    values:
+      image: true
 plugins:
   - jekyll-coffeescript
   - jekyll-commonmark-ghpages

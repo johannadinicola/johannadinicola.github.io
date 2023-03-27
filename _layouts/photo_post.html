@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<h1>{{ page.title }}</h1>
+
+<p class="view">by {{ page.author | default: site.author }}
+  <img src="{{ site.data.authors[page.author].picture | default: site.data.authors[site.author].picture }}" height="16"
+    alt="." /></p>
+
+{{content}}
+
+{% assign joined_image_string = '' %}
+{% for image_file in site.static_files | where: "image" %}
+  {% assign image = image_file.basename %}
+  {% if image contains page.slug %}
+    {% unless image contains 'tn' or image contains 'preview' %}
+      {% assign joined_image_string = joined_image_string | append: image_file.path | append: ',' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
+
+{% assign images = joined_image_string | split: ',' %}
+{% for image in images %}
+  <img src="{{ image }}">
+{% endfor %}
+
+{% if page.tags %}
+  <small>tags: <em>{{ page.tags | join: "</em>, <em>" }}</em></small>
+{% endif %}
