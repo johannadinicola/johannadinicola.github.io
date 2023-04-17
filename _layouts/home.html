@@ -37,10 +37,12 @@ layout: default
             </div>
             {% if site.show_excerpts %}
               {{ post.excerpt }}
-              {% if post.images %}
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                  {% for image in post.images %}
-                    {% if image == post.images[0] %}
+              {% if post.imageCount %}
+                 <a class="post-link" href="{{ post.url | relative_url }}">
+                  {% for index in (1..post.imageCount) %}
+                    {% assign number = index | plus: 10000 %}
+                    {% assign image = post.slug | append: '-' | append: number | replace: '-1', '-' %}
+                    {% if index == 1 %}
                       <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}.jpg" alt="{{ image }}" />
                     {% else %}
                       <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}-tn.jpg" height="32"
@@ -49,11 +51,24 @@ layout: default
                   {% endfor %}
                 </a>
               {% else %}
-                <h5>
+                {% if post.images %}
                   <a class="post-link" href="{{ post.url | relative_url }}">
-                    MORE
+                    {% for image in post.images %}
+                      {% if image == post.images[0] %}
+                        <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}.jpg" alt="{{ image }}" />
+                      {% else %}
+                        <img src="/assets/img{{ post.url | replace: ".html", "" }}/{{ image }}-tn.jpg" height="32"
+                          style="padding-right:8px" alt="{{ image }}" />
+                      {% endif %}
+                    {% endfor %}
                   </a>
-                </h5>
+                {% else %}
+                  <h5>
+                    <a class="post-link" href="{{ post.url | relative_url }}">
+                      MORE
+                    </a>
+                  </h5>
+                {% endif %}
               {% endif %}
             {% endif %}
             <div>
