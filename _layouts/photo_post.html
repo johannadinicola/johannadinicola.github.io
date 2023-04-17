@@ -23,7 +23,7 @@ layout: default
 
 {% assign images = joined_image_string | split: ',' %}
 {% for image in images %}
-  <img src="{{ image }}">
+  <img src="{{ image }}" alt=".">
 {% endfor %}
 
 {% if page.tags %}
