@@ -12,7 +12,7 @@ layout: default
 {{content}}
 
 {% assign joined_image_string = '' %}
-{% for image_file in site.static_files | where: "image" %}
+{% for image_file in site.static_files %}
   {% assign image = image_file.basename %}
   {% if image contains page.slug %}
     {% unless image contains 'tn' or image contains 'preview' %}
