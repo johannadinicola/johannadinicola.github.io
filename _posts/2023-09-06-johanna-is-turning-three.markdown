@@ -11,11 +11,11 @@ author: Mike
 excerpt_separator: <!--more-->
 ---
 
-{{ page.description }} <!--more--> There will be lunch, and Johanna is already very excited for cake and ice cream! Gifts not expected :)
+{{ page.description }} <!--more--> There will be lunch, and Johanna is already very excited for cake and ice cream! Bring the whole family. Gifts not expected :)
 
     Johanna's 3rd Birthday
     Topsfield, MA
-    Sat Sep 30, 2023
+    Sun Oct 1, 2023
     11am – 2pm
 
 Hope to see you then!
