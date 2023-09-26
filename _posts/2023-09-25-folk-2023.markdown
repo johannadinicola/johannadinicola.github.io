@@ -1,0 +1,14 @@
+---
+layout: photo_post
+title:  "Folk 2023"
+description: "Newport Folk was a hit yet again!"
+image: /assets/img/posts/2023/09/25/folk-2023/folk-2023-preview.jpg
+imageCount: 8
+date:   2023-09-25 12:00:00 -0400
+categories: posts
+tags: photos
+author: Mike
+excerpt_separator: <!--more-->
+---
+
+{{ page.description }} <!--more--> Johanna took in the music and fresh air and got to spend the weekend having fun with Grammy and Grandpa!
