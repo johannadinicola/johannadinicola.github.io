@@ -1,0 +1,14 @@
+---
+layout: photo_post
+title:  "End of 2024 Wrap-Up Part I"
+description: "Johanna had an exciting holiday season!"
+image: /assets/img/posts/2024/02/19/end-of-2024-wrap-up-i/end-of-2024-wrap-up-i-preview.jpg
+imageCount: 11
+date:   2024-02-19 12:00:00 -0400
+categories: posts
+tags: photos
+author: Mike
+excerpt_separator: <!--more-->
+---
+
+{{ page.description }} <!--more--> She spent lots of time with friends and family, turned 3 (!), became the Mothman, saw the Patriots, and learned to bowl.
