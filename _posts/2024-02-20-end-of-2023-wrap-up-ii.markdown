@@ -1,8 +1,8 @@
 ---
 layout: photo_post
-title:  "End of 2024 Wrap-Up Part II"
+title:  "End of 2023 Wrap-Up Part II"
 description: "Johanna had an exciting holiday season!"
-image: /assets/img/posts/2024/02/20/end-of-2024-wrap-up-ii/end-of-2024-wrap-up-ii-preview.jpg
+image: /assets/img/posts/2024/02/20/end-of-2023-wrap-up-ii/end-of-2023-wrap-up-ii-preview.jpg
 imageCount: 12
 date:   2024-02-20 12:00:00 -0400
 categories: posts
