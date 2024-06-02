@@ -11,4 +11,4 @@ author: Mike
 excerpt_separator: <!--more-->
 ---
 
-{{ page.description }} <!--more--> - she managed to built a snowman with Grandpa despite a mild winter, improved her climbing skills outside (and inside), and got creative with Grammy G in the kitchen.
+{{ page.description }} <!--more--> - she managed to build a snowman with Grandpa despite a mild winter, improved her climbing skills outside (and inside), and got creative with Grammy G in the kitchen.
