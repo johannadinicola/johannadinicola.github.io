@@ -16,7 +16,7 @@ excerpt_separator: <!--more-->
     Johanna's 4th Birthday
     Our home in Topsfield
     Sat Oct 5, 2024
-    12am – 3pm
+    12pm – 3pm
 
 Hope to see you then!
 
