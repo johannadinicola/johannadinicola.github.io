@@ -1,0 +1,14 @@
+---
+layout: photo_post
+title:  "2024 Photo Dump Part 1"
+description: "Johanna had a jam-packed year!"
+image: /assets/img/posts/2024/12/28/2024-photo-dump-i/2024-photo-dump-i-preview.jpg
+imageCount: 9
+date:   2024-12-28 00:00:00 -0500
+categories: posts
+tags: photos
+author: Mike
+excerpt_separator: <!--more-->
+---
+
+{{ page.description }} <!--more--> We were too busy going on trips and playing with friends to share updates for most of this year! Over the next few days you can see what Johanna was up to!
