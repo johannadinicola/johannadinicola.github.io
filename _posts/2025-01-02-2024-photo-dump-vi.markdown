@@ -1,0 +1,14 @@
+---
+layout: photo_post
+title:  "2024 Photo Dump Final Part"
+description: "Johanna had a jam-packed year!"
+image: /assets/img/posts/2025/01/02/2024-photo-dump-vi/2024-photo-dump-vi-preview.jpg
+imageCount: 8
+date:   2025-01-02 00:00:00 -0500
+categories: posts
+tags: photos
+author: Mike
+excerpt_separator: <!--more-->
+---
+
+{{ page.description }} <!--more--> We were too busy going on trips and playing with friends to share updates for most of this year! Here's the last part - lots of Christmas pics in their own post soon!
