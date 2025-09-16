@@ -21,5 +21,4 @@ plugins:
   - jekyll-readme-index
   - jekyll-default-layout
   - jekyll-titles-from-headings
-  - jekyll-feed
   - jekyll-seo-tag

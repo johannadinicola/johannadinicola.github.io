@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'jekyll-coffeescript', '= 1.1.1'
   s.add_runtime_dependency 'jekyll-commonmark-ghpages', '= 0.1.6'
   s.add_runtime_dependency 'jekyll-default-layout', '= 0.1.4'
-  s.add_runtime_dependency 'jekyll-feed', '= 0.15.1'
   s.add_runtime_dependency 'jekyll-gist', '= 1.5.0'
   s.add_runtime_dependency 'jekyll-github-metadata', '= 2.13.0'
   s.add_runtime_dependency 'jekyll-optional-front-matter', '= 0.3.2'
