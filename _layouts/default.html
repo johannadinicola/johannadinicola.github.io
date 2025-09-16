@@ -33,16 +33,6 @@
           <button type="submit">Submit</button>
         </form>
 
-        <p class="feed-subscribe">
-          <a href="{{ 'feed.xml' | relative_url }}">
-            <span>Subscribe to RSS/Atom</span>
-            <svg class="svg-icon"
-              style="fill:white; width:16px; height:16px; display:inline-block; padding:5px 3px 2px 5px; vertical-align:text-bottom">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg>
-          </a>
-        </p>
-
         {% if site.github.is_project_page %}
           <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub
               <small>{{ site.github.repository_nwo }}</small></a></p>
