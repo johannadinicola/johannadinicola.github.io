@@ -1,0 +1,14 @@
+---
+layout: photo_post
+title:  "Island Week 2025"
+description: "The year Johanna could catch her own rings"
+image: /assets/img/posts/2025/08/01/island-week-2025/island-week-2025-preview.jpg
+imageCount: 17
+date:   2025-08-01 00:00:00 -0400
+categories: posts
+tags: photos
+author: Mike
+excerpt_separator: <!--more-->
+---
+
+{{ page.description }} <!--more--> - and she did, many, many times! She even caught the brass ring on her first try.
