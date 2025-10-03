@@ -1,0 +1,14 @@
+---
+layout: photo_post
+title:  "Easter 2025"
+description: "Another Easter in the books!"
+image: /assets/img/posts/2025/06/01/easter-2025/easter-2025-preview.jpg
+imageCount: 13
+date:   2025-06-01 00:00:00 -0400
+categories: posts
+tags: photos
+author: Mike
+excerpt_separator: <!--more-->
+---
+
+{{ page.description }} <!--more--> Johanna spent Easter with her favorite cousin Teddy. She also had a special visitor at school - Mom!
