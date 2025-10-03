@@ -183,7 +183,7 @@
 
 for f in "$@"
 do
-	convert "$f" -sampling-factor 4:2:0 -quality 85 -interlace JPEG -set filename:f '%t' 'Downloads/%[filename:f].jpg'
+	convert "$f" -sampling-factor 4:2:0 -quality 60 -interlace JPEG -set filename:f '%t' 'Downloads/%[filename:f].jpg'
 done</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
